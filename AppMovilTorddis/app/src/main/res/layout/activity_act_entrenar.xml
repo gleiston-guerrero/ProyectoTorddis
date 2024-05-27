@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
+    android:padding="10dp"
+    tools:context=".ActEntrenar">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnVincularCamaraE"
+            android:layout_width="180dp"
+            android:layout_height="53dp"
+            android:background="@drawable/btn_round_corners"
+            android:onClick="ocVincularDispositivoE"
+            android:text="Registrar dispositivo"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/Torddis_1"
+            app:icon="@drawable/ic_vincular"
+            app:iconGravity="textStart"
+            app:iconPadding="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btnEntrenarMode"
+            app:layout_constraintHorizontal_bias="0.219"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.513" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnEntrenarMode"
+            android:layout_width="180dp"
+            android:layout_height="53dp"
+            android:background="@drawable/btn_round_corners"
+            android:backgroundTint="@color/black"
+            android:onClick="ocEntrenar"
+            android:text="Entrenar"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/black"
+            app:icon="@drawable/ic_face"
+            app:iconGravity="textStart"
+            app:iconPadding="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.513" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Video de la cámara"
+        android:textColor="@color/Torddis_1"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="319dp"
+        android:background="@drawable/border_image_view"
+        android:orientation="vertical">
+
+        <WebView
+            android:id="@+id/webvideoE"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:usesCleartextTraffic="true">
+        </WebView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtPrsEntrenamiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/Torddis_1"
+        android:textColor="@color/Torddis_1"
+        android:textSize="20sp" />
+</LinearLayout>

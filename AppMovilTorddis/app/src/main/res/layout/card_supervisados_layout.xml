@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+        android:layout_margin="12dp"
+        android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="6dp"
+        app:strokeColor="@color/Torddis_1"
+        app:strokeWidth="3dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="2dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/item_image_Supervisado"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="23dp" />
+
+            <TextView
+                android:id="@+id/item_distraccion"
+                android:layout_width="234dp"
+                android:layout_height="35dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginEnd="13dp"
+                android:layout_toEndOf="@+id/item_image_Supervisado"
+                android:layout_toRightOf="@+id/item_image_Supervisado"
+                android:text="Nombre: supervisado supervisado supervisado supervisado"
+                android:textColor="@color/Torddis_1"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/item_edad_sup"
+                android:layout_width="228dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/item_distraccion"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="10dp"
+                android:layout_toEndOf="@+id/item_image_Supervisado"
+                android:layout_toRightOf="@+id/item_image_Supervisado"
+                android:text="Edad: 13 años 1 meses 0 días"
+                android:textColor="@color/Torddis_1"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnEntrenar"
+                android:layout_width="185dp"
+                android:layout_height="40dp"
+                android:layout_above="@+id/btnModificarSup"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="18dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginBottom="7dp"
+                android:layout_toEndOf="@+id/item_image_Supervisado"
+                android:background="@drawable/btn_round_corners"
+                android:backgroundTint="@color/black"
+                android:text="Entrenar rostro"
+                android:textColor="@color/white"
+                android:textSize="9sp"
+                app:backgroundTint="@color/black"
+                app:icon="@drawable/ic_face"
+                app:iconGravity="textStart"
+                app:iconPadding="10dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnModificarSup"
+                android:layout_width="185dp"
+                android:layout_height="37dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="18dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginBottom="15dp"
+                android:layout_toEndOf="@+id/item_image_Supervisado"
+                android:background="@drawable/btn_round_corners"
+                android:backgroundTint="@color/teal_700"
+                android:text="Modificar"
+                android:textColor="@color/white"
+                android:textSize="9sp"
+                app:backgroundTint="@color/Torddis_2"
+                app:icon="@drawable/ic_edit"
+                app:iconGravity="textStart"
+                app:iconPadding="10dp" />
+
+        </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Carlos/AndroidStudioProjects/AppMovilTorddis/app/src/main/res/drawable/ic_person.xml" value="0.2485" />
+        <entry key="..\:/Users/Carlos/AndroidStudioProjects/AppMovilTorddis/app/src/main/res/layout/activity_act_cuenta_supervisado.xml" value="0.1585144927536232" />
+        <entry key="..\:/Users/Carlos/AndroidStudioProjects/AppMovilTorddis/app/src/main/res/layout/activity_act_entrenar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Carlos/AndroidStudioProjects/AppMovilTorddis/app/src/main/res/layout/activity_act_historial.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Carlos/AndroidStudioProjects/AppMovilTorddis/app/src/main/res/layout/activity_act_monitoreo.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Carlos/AndroidStudioProjects/AppMovilTorddis/app/src/main/res/layout/activity_act_reportes.xml" value="0.264" />
+        <entry key="..\:/Users/Carlos/AndroidStudioProjects/AppMovilTorddis/app/src/main/res/layout/activity_act_supervisados.xml" value="0.1585144927536232" />
+        <entry key="..\:/Users/Carlos/AndroidStudioProjects/AppMovilTorddis/app/src/main/res/layout/activity_act_vincular_dispositivo.xml" value="0.1585144927536232" />
+        <entry key="..\:/Users/Carlos/AndroidStudioProjects/AppMovilTorddis/app/src/main/res/layout/activity_iniciar_sesion.xml" value="0.1585144927536232" />
+        <entry key="..\:/Users/Carlos/AndroidStudioProjects/AppMovilTorddis/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Carlos/AndroidStudioProjects/AppMovilTorddis/app/src/main/res/layout/activity_menu_opciones.xml" value="0.6" />
+        <entry key="..\:/Users/Carlos/AndroidStudioProjects/AppMovilTorddis/app/src/main/res/layout/cabecera.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Carlos/AndroidStudioProjects/AppMovilTorddis/app/src/main/res/layout/card_historial_layout.xml" value="0.4" />
+        <entry key="..\:/Users/Carlos/AndroidStudioProjects/AppMovilTorddis/app/src/main/res/layout/card_supervisados_layout.xml" value="0.264" />
+        <entry key="..\:/Users/Carlos/AndroidStudioProjects/AppMovilTorddis/app/src/main/res/layout/card_tiposdistrac_layout.xml" value="0.264" />
+        <entry key="..\:/Users/jhonp/Documents/Proyectos/Proyectos_android/AppMovilTorddis/app/src/main/res/drawable-v24/btn_round_corners_orange.xml" value="0.2203125" />
+        <entry key="..\:/Users/jhonp/Documents/Proyectos/Proyectos_android/AppMovilTorddis/app/src/main/res/drawable-v24/btn_round_corners_white.xml" value="0.2203125" />
+        <entry key="..\:/Users/jhonp/Documents/Proyectos/Proyectos_android/AppMovilTorddis/app/src/main/res/drawable/background_menu_gradient_round_corners.xml" value="0.2203125" />
+        <entry key="..\:/Users/jhonp/Documents/Proyectos/Proyectos_android/AppMovilTorddis/app/src/main/res/drawable/background_principal.xml" value="0.2203125" />
+        <entry key="..\:/Users/jhonp/Documents/Proyectos/Proyectos_android/AppMovilTorddis/app/src/main/res/drawable/border_image_view.xml" value="0.2203125" />
+        <entry key="..\:/Users/jhonp/Documents/Proyectos/Proyectos_android/AppMovilTorddis/app/src/main/res/drawable/btn_round_corners.xml" value="0.2203125" />
+        <entry key="..\:/Users/jhonp/Documents/Proyectos/Proyectos_android/AppMovilTorddis/app/src/main/res/drawable/button_state_list_anim_material.xml" value="0.2203125" />
+        <entry key="..\:/Users/jhonp/Documents/Proyectos/Proyectos_android/AppMovilTorddis/app/src/main/res/drawable/color_cursor.xml" value="0.2203125" />
+        <entry key="..\:/Users/jhonp/Documents/Proyectos/Proyectos_android/AppMovilTorddis/app/src/main/res/drawable/efecto_seleccionar_opcion.xml" value="0.2203125" />
+        <entry key="..\:/Users/jhonp/Documents/Proyectos/Proyectos_android/AppMovilTorddis/app/src/main/res/drawable/ic_home.xml" value="0.2203125" />
+        <entry key="..\:/Users/jhonp/Documents/Proyectos/Proyectos_android/AppMovilTorddis/app/src/main/res/drawable/logo_torddis.xml" value="0.2203125" />
+        <entry key="..\:/Users/jhonp/Documents/Proyectos/Proyectos_android/AppMovilTorddis/app/src/main/res/drawable/menu_lateral.xml" value="0.2203125" />
+        <entry key="..\:/Users/jhonp/Documents/Proyectos/Proyectos_android/AppMovilTorddis/app/src/main/res/layout/activity_act_camaras.xml" value="0.10326086956521739" />
+        <entry key="..\:/Users/jhonp/Documents/Proyectos/Proyectos_android/AppMovilTorddis/app/src/main/res/layout/activity_act_editar_supervisado.xml" value="0.18" />
+        <entry key="..\:/Users/jhonp/Documents/Proyectos/Proyectos_android/AppMovilTorddis/app/src/main/res/layout/activity_act_historial.xml" value="0.25" />
+        <entry key="..\:/Users/jhonp/Documents/Proyectos/Proyectos_android/AppMovilTorddis/app/src/main/res/layout/activity_act_monitoreo.xml" value="0.19882246376811594" />
+        <entry key="..\:/Users/jhonp/Documents/Proyectos/Proyectos_android/AppMovilTorddis/app/src/main/res/layout/activity_act_objetos.xml" value="0.19882246376811594" />
+        <entry key="..\:/Users/jhonp/Documents/Proyectos/Proyectos_android/AppMovilTorddis/app/src/main/res/layout/activity_act_reportes.xml" value="0.18" />
+        <entry key="..\:/Users/jhonp/Documents/Proyectos/Proyectos_android/AppMovilTorddis/app/src/main/res/layout/activity_act_supervisados.xml" value="0.13994565217391305" />
+        <entry key="..\:/Users/jhonp/Documents/Proyectos/Proyectos_android/AppMovilTorddis/app/src/main/res/layout/activity_iniciar_sesion.xml" value="0.25" />
+        <entry key="..\:/Users/jhonp/Documents/Proyectos/Proyectos_android/AppMovilTorddis/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/jhonp/Documents/Proyectos/Proyectos_android/AppMovilTorddis/app/src/main/res/layout/activity_menu_opciones.xml" value="0.25" />
+        <entry key="..\:/Users/jhonp/Documents/Proyectos/Proyectos_android/AppMovilTorddis/app/src/main/res/layout/activity_registrar_tutor.xml" value="0.22" />
+        <entry key="..\:/Users/jhonp/Documents/Proyectos/Proyectos_android/AppMovilTorddis/app/src/main/res/layout/cabecera.xml" value="0.12952898550724637" />
+        <entry key="..\:/Users/jhonp/Documents/Proyectos/Proyectos_android/AppMovilTorddis/app/src/main/res/layout/card_historial_layout.xml" value="0.11770833333333333" />
+        <entry key="..\:/Users/jhonp/Documents/Proyectos/Proyectos_android/AppMovilTorddis/app/src/main/res/layout/card_supervisados_layout.xml" value="0.33" />
+        <entry key="..\:/Users/jhonp/Documents/Proyectos/Proyectos_android/AppMovilTorddis/app/src/main/res/layout/layout_ver_foto.xml" value="0.17798913043478262" />
+        <entry key="..\:/Users/jhonp/Documents/Proyectos/Proyectos_android/AppMovilTorddis/app/src/main/res/menu/menu_lateral.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.13" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

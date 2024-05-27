@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
+    tools:context=".ActMonitoreo"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnVincularCamara"
+            android:layout_width="193dp"
+            android:layout_height="53dp"
+            android:background="@drawable/btn_round_corners"
+            android:onClick="ocVincularDispositivo"
+            android:text="Registrar dispositivo"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/Torddis_1"
+            app:icon="@drawable/ic_vincular"
+            app:iconGravity="textStart"
+            app:iconPadding="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/swtTransmision"
+            app:layout_constraintHorizontal_bias="0.219"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.513" />
+
+        <Switch
+            android:id="@+id/swtTransmision"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Ver transmisión"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Video de la cámara"
+        android:textColor="@color/Torddis_1"
+        android:textSize="20sp" />
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="319dp"
+    android:background="@drawable/border_image_view"
+    android:orientation="vertical">
+
+    <WebView
+        android:id="@+id/webvideo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:usesCleartextTraffic="true">
+    </WebView>
+</LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvDistraccion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

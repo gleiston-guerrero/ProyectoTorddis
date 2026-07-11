@@ -1,0 +1,68 @@
+version: 2
+
+updates:
+  # -----------------------------------------------------------
+  # Python analysis notebooks
+  # -----------------------------------------------------------
+  - package-ecosystem: "pip"
+    directory: "/analysis"
+    schedule:
+      interval: "monthly"
+      day: "monday"
+    open-pull-requests-limit: 5
+    reviewers:
+      - "gleiston-guerrero"
+    labels:
+      - "dependencies"
+      - "analysis"
+    commit-message:
+      prefix: "chore(analysis)"
+
+  # -----------------------------------------------------------
+  # Django back-end
+  # -----------------------------------------------------------
+  - package-ecosystem: "pip"
+    directory: "/src/backend"
+    schedule:
+      interval: "monthly"
+      day: "monday"
+    open-pull-requests-limit: 5
+    reviewers:
+      - "gleiston-guerrero"
+    labels:
+      - "dependencies"
+      - "backend"
+    commit-message:
+      prefix: "chore(backend)"
+
+  # -----------------------------------------------------------
+  # Android mobile app (Gradle)
+  # -----------------------------------------------------------
+  - package-ecosystem: "gradle"
+    directory: "/src/mobile-app"
+    schedule:
+      interval: "monthly"
+      day: "monday"
+    open-pull-requests-limit: 5
+    reviewers:
+      - "gleiston-guerrero"
+    labels:
+      - "dependencies"
+      - "mobile-app"
+    commit-message:
+      prefix: "chore(mobile)"
+
+  # -----------------------------------------------------------
+  # GitHub Actions workflows
+  # -----------------------------------------------------------
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+      day: "monday"
+    open-pull-requests-limit: 3
+    labels:
+      - "dependencies"
+      - "ci"
+    commit-message:
+      prefix: "chore(ci)"

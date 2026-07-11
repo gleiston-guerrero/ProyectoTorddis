@@ -1,0 +1,142 @@
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ============================================================
+# Django
+# ============================================================
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+!src/backend/media/Objetos/
+
+# ============================================================
+# Jupyter / Data science
+# ============================================================
+.ipynb_checkpoints/
+.jupyter/
+profile_default/
+ipython_config.py
+
+# ============================================================
+# Virtual environments
+# ============================================================
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+
+# ============================================================
+# Android / Gradle
+# ============================================================
+.gradle/
+local.properties
+proguard/
+*.iml
+.externalNativeBuild/
+.cxx/
+captures/
+
+# Android build outputs
+src/mobile-app/app/build/
+src/mobile-app/build/
+src/mobile-app/**/build/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# ============================================================
+# IntelliJ / Android Studio / IDEs
+# ============================================================
+.idea/
+!.idea/codeStyles/
+!.idea/dictionaries/
+!.idea/runConfigurations/
+*.ipr
+*.iws
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ============================================================
+# ESP32 / Arduino / PlatformIO
+# ============================================================
+.pio/
+.pioenvs/
+.piolibdeps/
+lib/readme.txt
+
+# ============================================================
+# Node.js
+# ============================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ============================================================
+# macOS
+# ============================================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# ============================================================
+# Windows
+# ============================================================
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ============================================================
+# Repo maintenance and temporary files
+# ============================================================
+estructura.txt
+git_status.txt
+git_log.txt
+git_branches.txt
+readme_content.txt
+iot_device_content.txt
+_tmp_pkg/
+*.bak
+*.tmp

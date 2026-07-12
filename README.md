@@ -297,7 +297,7 @@ Attribution should include the citation of both the manuscript and the Zenodo DO
 
 ## Contact and support
 
-- **Corresponding author**: Miguel J. Hornos — mhornos@ugr.es (Department of Software Engineering, University of Granada, Spain)
+- **Corresponding author**: Miguel J. Hornos — mhornos@ugr.es (Software Engineering Department, Research Centre for Information and Communication Technologies (CITIC-UGR), University of Granada, Spain)
 - **Principal investigator**: Gleiston Guerrero-Ulloa — gguerrero@uteq.edu.ec (Faculty of Engineering Sciences, Universidad Técnica Estatal de Quevedo, Ecuador)
 - **Issues and questions**: please open an issue at <https://github.com/CarlosAlmeida2000/ProyectoTorddis/issues>.
 - **Security matters**: see [`SECURITY.md`](SECURITY.md).

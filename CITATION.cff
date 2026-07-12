@@ -71,17 +71,17 @@ authors:
     given-names: Miguel J.
     orcid: "https://orcid.org/0000-0001-5722-9816"
     affiliation: >
-      Departamento de Lenguajes y Sistemas Informáticos, ETSI
-      Informática y de Telecomunicación, Universidad de Granada,
-      Granada, Spain
+      Software Engineering Department, Research Centre for Information
+      and Communication Technologies (CITIC-UGR), Aynadamar Campus,
+      University of Granada, Granada, Spain
     email: mhornos@ugr.es
   - family-names: Rodríguez-Domínguez
     given-names: Carlos
     orcid: "https://orcid.org/0000-0001-5626-3115"
     affiliation: >
-      Departamento de Lenguajes y Sistemas Informáticos, ETSI
-      Informática y de Telecomunicación, Universidad de Granada,
-      Granada, Spain
+      Software Engineering Department, Research Centre for Information
+      and Communication Technologies (CITIC-UGR), Aynadamar Campus,
+      University of Granada, Granada, Spain
 preferred-citation:
   type: article
   title: >

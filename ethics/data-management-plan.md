@@ -80,7 +80,7 @@ The video frames captured by the ESP32-CAM are processed in RAM and immediately 
 | Data Analyst | Gleiston Guerrero-Ulloa, Carlos Almeida-Dueñas, John Plazarte-Suárez, Miguel J. Hornos and Carlos Rodríguez-Domínguez | Statistical analysis and preparation of the reproducibility notebooks |
 | Data Curator | Gleiston Guerrero-Ulloa (Faculty of Engineering Sciences, UTEQ; gguerrero@uteq.edu.ec) | Deposit on Zenodo, metadata curation, DOI reservation and updates |
 | Principal Investigator | Gleiston Guerrero-Ulloa (Faculty of Engineering Sciences, UTEQ; gguerrero@uteq.edu.ec) | Overall scientific responsibility for the study and its data |
-| Corresponding Author | Miguel J. Hornos (Department of Software Engineering, ETSIIT, University of Granada; mhornos@ugr.es) | Correspondence with the journal editorial office and coordination of the international dissemination |
+| Corresponding Author | Miguel J. Hornos (Software Engineering Department, Research Centre for Information and Communication Technologies (CITIC-UGR), University of Granada; mhornos@ugr.es) | Correspondence with the journal editorial office and coordination of the international dissemination |
 
 ## 8. Compliance with regulations
 

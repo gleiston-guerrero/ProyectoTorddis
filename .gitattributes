@@ -1,0 +1,66 @@
+# ============================================================
+# End-of-line normalization (avoids CRLF vs LF diff noise)
+# ============================================================
+* text=auto eol=lf
+
+# Force specific text files to LF
+*.py    text eol=lf
+*.pyi   text eol=lf
+*.java  text eol=lf
+*.kt    text eol=lf
+*.c     text eol=lf
+*.cpp   text eol=lf
+*.h     text eol=lf
+*.hpp   text eol=lf
+*.ino   text eol=lf
+*.md    text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.json  text eol=lf
+*.csv   text eol=lf
+*.tsv   text eol=lf
+*.sh    text eol=lf
+*.xml   text eol=lf
+
+# Windows-only files: force CRLF
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
+*.ps1   text eol=crlf
+
+# ============================================================
+# Binary files (never touch them)
+# ============================================================
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.webp   binary
+*.ico    binary
+*.pdf    binary
+*.zip    binary
+*.tar    binary
+*.gz     binary
+*.7z     binary
+*.h5     binary
+*.pt     binary
+*.pth    binary
+*.pkl    binary
+*.pyc    binary
+*.jar    binary
+*.apk    binary
+*.aab    binary
+
+# ============================================================
+# GitHub Linguist overrides (language statistics on repo page)
+# ============================================================
+# Exclude vendored libraries and generated files from language stats
+docs/**            linguist-documentation
+data/**            linguist-documentation
+instruments/**     linguist-documentation
+ethics/**          linguist-documentation
+evaluation/**      linguist-documentation
+*.ipynb            linguist-detectable
+
+# Include analysis notebooks in stats
+analysis/*.ipynb   linguist-detectable=true
+analysis/*.ipynb   linguist-vendored=false

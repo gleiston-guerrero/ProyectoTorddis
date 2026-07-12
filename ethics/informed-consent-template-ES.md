@@ -1,6 +1,6 @@
 # Consentimiento informado — plantilla
 
-> **Nota importante.** Esta es una plantilla en blanco. Los datos personales y las firmas reales de los tutores participantes **no** están, ni deben estar, en el repositorio público. Los originales firmados se conservan bajo llave en la Facultad de Ciencias de la Ingeniería de la universidad participante y solo son accesibles a los investigadores autorizados y, previa solicitud fundada, al Comité de Investigación.
+> **Nota importante.** Esta es una plantilla en blanco. Los datos personales y las firmas reales de los tutores participantes **no** están, ni deben estar, en el repositorio público. Los originales firmados se conservan bajo llave en la Facultad de Ciencias de la Ingeniería de la Universidad Técnica Estatal de Quevedo (UTEQ) y solo son accesibles a los investigadores autorizados y, previa solicitud fundada, al Comité de Investigación.
 
 ---
 
@@ -8,9 +8,9 @@
 
 **Título del proyecto:** Torddis --- Sistema IoT y de Inteligencia Artificial en tiempo real para apoyar el aprendizaje en el hogar y mitigar el ausentismo parental.
 
-**Investigadores responsables:** [Nombre y correo institucional del investigador principal en la sede del estudio].
+**Investigador responsable en la sede del estudio:** Ing. Gleiston Cicerón Guerrero Ulloa, Ph.D. (Facultad de Ciencias de la Ingeniería, Universidad Técnica Estatal de Quevedo). Correo: gguerrero@uteq.edu.ec.
 
-**Comité que aprobó el estudio:** Comité de Investigación de la Facultad de Ciencias de la Ingeniería de [la universidad participante].
+**Comité que aprobó el estudio:** Comité de Investigación de la Facultad de Ciencias de la Ingeniería de la Universidad Técnica Estatal de Quevedo (UTEQ).
 
 ---
 
@@ -62,9 +62,9 @@ La participación es voluntaria. Puede retirarse en cualquier momento, incluso d
 
 ### 7. Contacto
 
-Para preguntas, dudas o retiro del estudio, por favor contáctenos en: [correo institucional del investigador principal].
+Para preguntas, dudas o retiro del estudio, por favor contáctenos en: gguerrero@uteq.edu.ec.
 
-Si tiene inquietudes éticas que no se resolvieron con los investigadores, puede contactar directamente al Comité de Investigación de la Facultad de Ciencias de la Ingeniería de [la universidad participante] en: [correo del comité].
+Si tiene inquietudes éticas que no se resolvieron con los investigadores, puede contactar directamente al Comité de Investigación de la Facultad de Ciencias de la Ingeniería de la Universidad Técnica Estatal de Quevedo (UTEQ) a través de la Carrera de Software: carrerasoftware@uteq.edu.ec.
 
 ---
 

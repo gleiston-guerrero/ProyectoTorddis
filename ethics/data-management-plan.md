@@ -35,7 +35,7 @@ This document is a Data Management Plan for the Torddis study, aligned with the 
 
 ### 4.1 Pseudonymisation
 
-At capture time, participants are assigned pseudonymous identifiers (`G01`…`G12`). The mapping from real identity to pseudonym is kept **only** in a paper document under lock at the host institution and is destroyed one year after publication of the manuscript.
+At capture time, participants are assigned pseudonymous identifiers (`G01`…`G12`). The mapping from real identity to pseudonym is kept **only** in a paper document under lock at the Faculty of Engineering Sciences of the Universidad Técnica Estatal de Quevedo (UTEQ) and is destroyed one year after publication of the manuscript.
 
 ### 4.2 Redaction of open-ended responses
 
@@ -76,14 +76,15 @@ The video frames captured by the ESP32-CAM are processed in RAM and immediately 
 
 | Role | Person | Responsibility |
 |------|--------|----------------|
-| Data Steward | [name] | Data collection, transcription, pseudonymisation |
-| Data Analyst | [name] | Statistical analysis, notebooks |
-| Data Curator | [name] | Deposit on Zenodo, metadata, DOI |
-| Principal Investigator | [name] | Overall responsibility |
+| Data Steward | Carlos Almeida-Dueñas and John Plazarte-Suárez (Faculty of Engineering Sciences, UTEQ) | Data collection during the pilot sessions, transcription of paper questionnaires into CSV, and pseudonymisation before deposit |
+| Data Analyst | Gleiston Guerrero-Ulloa, Carlos Almeida-Dueñas, John Plazarte-Suárez, Miguel J. Hornos and Carlos Rodríguez-Domínguez | Statistical analysis and preparation of the reproducibility notebooks |
+| Data Curator | Gleiston Guerrero-Ulloa (Faculty of Engineering Sciences, UTEQ; gguerrero@uteq.edu.ec) | Deposit on Zenodo, metadata curation, DOI reservation and updates |
+| Principal Investigator | Gleiston Guerrero-Ulloa (Faculty of Engineering Sciences, UTEQ; gguerrero@uteq.edu.ec) | Overall scientific responsibility for the study and its data |
+| Corresponding Author | Miguel J. Hornos (Department of Software Engineering, ETSIIT, University of Granada; mhornos@ugr.es) | Correspondence with the journal editorial office and coordination of the international dissemination |
 
 ## 8. Compliance with regulations
 
-The study protocol was reviewed and approved by the Research Committee of the Faculty of Engineering Sciences of the participating university. The data-handling practices described above align with:
+The study protocol was reviewed and approved by the Research Committee of the Faculty of Engineering Sciences of the Universidad Técnica Estatal de Quevedo (UTEQ). The data-handling practices described above align with:
 
 - The principles of the Declaration of Helsinki (1964, and its later amendments).
 - ISO/IEC 27001:2022 (Information security management systems).

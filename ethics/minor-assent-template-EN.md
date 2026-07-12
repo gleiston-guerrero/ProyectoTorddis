@@ -1,6 +1,9 @@
 # Child assent — age-adapted template (English translation)
 
 > **Important note.** This is a blank template. The Spanish version (`minor-assent-template-ES.md`) is the canonical document that was actually used with the participating Spanish-speaking children. Completed forms are not, and must not be, in the public repository.
+>
+> **Responsible institution:** Universidad Técnica Estatal de Quevedo (UTEQ), Faculty of Engineering Sciences.
+> **Responsible investigator:** Gleiston Cicerón Guerrero Ulloa, Ph.D. (gguerrero@uteq.edu.ec).
 
 ---
 

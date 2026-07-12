@@ -1,6 +1,9 @@
 # Asentimiento del/de la niño/a — plantilla adaptada a la edad
 
 > **Nota importante.** Esta es una plantilla en blanco para uso institucional. Los formularios completados no están, ni deben estar, en el repositorio público.
+>
+> **Institución responsable:** Universidad Técnica Estatal de Quevedo (UTEQ), Facultad de Ciencias de la Ingeniería.
+> **Investigador responsable:** Gleiston Cicerón Guerrero Ulloa, Ph.D. (gguerrero@uteq.edu.ec).
 
 ---
 

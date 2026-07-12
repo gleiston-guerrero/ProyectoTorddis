@@ -1,6 +1,6 @@
 # Informed consent — template (English translation)
 
-> **Important note.** This is a blank template. The Spanish version (`informed-consent-template-ES.md`) is the canonical document that was actually administered to the Spanish-speaking participants. The personal data and signatures of the participating guardians **are not** and **must not be** present in the public repository. The signed originals are kept under lock and key at the Faculty of Engineering Sciences of the participating university and are accessible only to authorised researchers and, upon reasoned request, to the Research Committee.
+> **Important note.** This is a blank template. The Spanish version (`informed-consent-template-ES.md`) is the canonical document that was actually administered to the Spanish-speaking participants. The personal data and signatures of the participating guardians **are not** and **must not be** present in the public repository. The signed originals are kept under lock and key at the Faculty of Engineering Sciences of the Universidad Técnica Estatal de Quevedo (UTEQ) and are accessible only to authorised researchers and, upon reasoned request, to the Research Committee.
 
 ---
 
@@ -8,9 +8,9 @@
 
 **Project title:** Torddis --- Real-time IoT and Artificial Intelligence system to support at-home learning and mitigate parental absenteeism.
 
-**Principal investigators:** [Name and institutional e-mail address of the principal investigator at the study site].
+**Principal investigator at the study site:** Gleiston Cicerón Guerrero Ulloa, Ph.D. (Faculty of Engineering Sciences, Universidad Técnica Estatal de Quevedo). E-mail: gguerrero@uteq.edu.ec.
 
-**Committee that approved the study:** Research Committee of the Faculty of Engineering Sciences of [the participating university].
+**Committee that approved the study:** Research Committee of the Faculty of Engineering Sciences of the Universidad Técnica Estatal de Quevedo (UTEQ).
 
 ---
 
@@ -62,9 +62,9 @@ Participation is voluntary. You may withdraw at any time, including during or af
 
 ### 7. Contact
 
-For questions, doubts or withdrawal from the study, please contact us at: [institutional e-mail of the principal investigator].
+For questions, doubts or withdrawal from the study, please contact us at: gguerrero@uteq.edu.ec.
 
-If you have ethical concerns that were not resolved with the researchers, you may directly contact the Research Committee of the Faculty of Engineering Sciences of [the participating university] at: [committee e-mail].
+If you have ethical concerns that were not resolved with the researchers, you may directly contact the Research Committee of the Faculty of Engineering Sciences of the Universidad Técnica Estatal de Quevedo (UTEQ) through the Software Engineering Programme: carrerasoftware@uteq.edu.ec.
 
 ---
 

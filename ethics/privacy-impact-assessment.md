@@ -43,7 +43,7 @@ This Privacy Impact Assessment identifies the risks that the Torddis system pose
 
 ### R-05 — Loss of the pseudonymisation key file
 
-- Kept on paper only, in a locked cabinet at the host institution.
+- Kept on paper only, in a locked cabinet at the Faculty of Engineering Sciences of the Universidad Técnica Estatal de Quevedo (UTEQ).
 - Two authorised researchers only.
 - Destroyed one year after publication of the manuscript.
 

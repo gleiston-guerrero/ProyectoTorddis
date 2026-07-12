@@ -21,4 +21,4 @@ For any subsequent language, please add a translation with the naming convention
 
 ## Privacy
 
-No completed consent or assent form is included in this repository. The signed originals are kept under lock and key at the host institution and are accessible only to authorised researchers and, upon reasoned request, to the Research Committee.
+No completed consent or assent form is included in this repository. The signed originals are kept under lock and key at the Faculty of Engineering Sciences of the Universidad Técnica Estatal de Quevedo (UTEQ) and are accessible only to authorised researchers and, upon reasoned request, to the Research Committee.

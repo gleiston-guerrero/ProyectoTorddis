@@ -11,8 +11,8 @@ license: MIT
 license-url: "https://opensource.org/license/mit"
 type: dataset
 repository-code: "https://github.com/CarlosAlmeida2000/ProyectoTorddis"
-url: "https://doi.org/10.5281/zenodo.XXXXXXX"
-doi: 10.5281/zenodo.XXXXXXX
+# url: "https://doi.org/10.5281/zenodo.XXXXXXX"
+# doi: 10.5281/zenodo.XXXXXXX
 abstract: >
   This reproducibility package accompanies the manuscript "Torddis: A
   real-time IoT and AI-based system to support at-home learning and

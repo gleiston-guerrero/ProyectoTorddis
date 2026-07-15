@@ -44,6 +44,13 @@ keywords:
   - open science
   - FAIR data
 authors:
+  - family-names: "Guerrero-Ulloa"
+    given-names: Gleiston
+    orcid: "https://orcid.org/0000-0001-5990-2357"
+    affiliation: >
+      Facultad de Ciencias de la Ingeniería, Universidad Técnica
+      Estatal de Quevedo (UTEQ), Quevedo, Ecuador
+    email: gguerrero@uteq.edu.ec
   - family-names: "Almeida-Dueñas"
     given-names: Carlos
     orcid: "https://orcid.org/0000-0002-0959-922X"
@@ -56,13 +63,6 @@ authors:
     affiliation: >
       Facultad de Ciencias de la Ingeniería, Universidad Técnica
       Estatal de Quevedo (UTEQ), Quevedo, Ecuador
-  - family-names: "Guerrero-Ulloa"
-    given-names: Gleiston
-    orcid: "https://orcid.org/0000-0001-5990-2357"
-    affiliation: >
-      Facultad de Ciencias de la Ingeniería, Universidad Técnica
-      Estatal de Quevedo (UTEQ), Quevedo, Ecuador
-    email: gguerrero@uteq.edu.ec
   - family-names: "Erazo-Moreta"
     given-names: Orlando
     orcid: "https://orcid.org/0000-0001-5642-9920"
@@ -93,12 +93,12 @@ preferred-citation:
   year: 2026
   notes: "Under review"
   authors:
+    - family-names: "Guerrero-Ulloa"
+      given-names: Gleiston
     - family-names: "Almeida-Dueñas"
       given-names: Carlos
     - family-names: "Plazarte-Suárez"
       given-names: John
-    - family-names: "Guerrero-Ulloa"
-      given-names: Gleiston
     - family-names: "Erazo-Moreta"
       given-names: Orlando
     - family-names: Hornos

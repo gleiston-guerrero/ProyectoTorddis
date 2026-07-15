@@ -1,6 +1,6 @@
 # Torddis — Reproducibility Package
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21367334.svg)](https://doi.org/10.5281/zenodo.21367334)
 [![License: MIT (code)](https://img.shields.io/badge/Code%20License-MIT-yellow.svg)](LICENSE-CODE)
 [![License: CC BY 4.0 (docs)](https://img.shields.io/badge/Docs%20License-CC%20BY%204.0-lightgrey.svg)](LICENSE-DOCS)
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
@@ -67,8 +67,8 @@ If you use this repository, please cite **both** the manuscript **and** the Zeno
                  documentation and analysis notebooks)},
     year      = {2026},
     publisher = {Zenodo},
-    doi       = {10.5281/zenodo.XXXXXXX},
-    url       = {https://doi.org/10.5281/zenodo.XXXXXXX}
+    doi       = {10.5281/zenodo.21367334},
+    url       = {https://doi.org/10.5281/zenodo.21367334}
 }
 ```
 

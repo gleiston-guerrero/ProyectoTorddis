@@ -6,7 +6,7 @@ seaborn==0.13.2
 statsmodels==0.14.2
 scikit-learn==1.4.2
 jupyterlab==4.2.0
-jupytext==1.16.2
+jupytext==1.19.4
 notebook==7.2.0
 ipykernel==6.29.4
 pingouin==0.5.4

@@ -49,9 +49,9 @@ If you use this repository, please cite **both** the manuscript **and** the Zeno
 
 ```bibtex
 @article{TorddisEAIT2026,
-    author  = {Guerrero-Ulloa, Gleiston and Almeida-Due\~nas, Carlos and 
-	 Plazarte-Su\'arez, John and Erazo-Moreta, Orlando and
-               Hornos, Miguel J. and Rodr\'iguez-Dom\'inguez, Carlos},
+    author  = {Guerrero-Ulloa, Gleiston and Almeida-Dueñas, Carlos and 
+	 Plazarte-Suárez, John and Erazo-Moreta, Orlando and
+               Hornos, Miguel J. and Rodríguez-Domínguez, Carlos},
     title   = {Torddis: A real-time {IoT} and {AI}-based system to support
                at-home learning and mitigate parental absenteeism},
     journal = {Education and Information Technologies},
@@ -60,9 +60,9 @@ If you use this repository, please cite **both** the manuscript **and** the Zeno
 }
 
 @dataset{TorddisRepo2026,
-    author    = {Guerrero-Ulloa, Gleiston and Almeida-Due\~nas, Carlos and 
-	   Plazarte-Su\'arez, John and Erazo-Moreta, Orlando and
-                 Hornos, Miguel J. and Rodr\'iguez-Dom\'inguez, Carlos},
+    author    = {Guerrero-Ulloa, Gleiston and Almeida-Dueñas, Carlos and 
+	   Plazarte-Suárez, John and Erazo-Moreta, Orlando and
+                 Hornos, Miguel J. and Rodríguez-Domínguez, Carlos},
     title     = {{Torddis} reproducibility package (source code, data,
                  documentation and analysis notebooks)},
     year      = {2026},

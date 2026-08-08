@@ -1,6 +1,6 @@
 # Torddis — Reproducibility Package
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21367334.svg)](https://doi.org/10.5281/zenodo.21367334)
 [![License: MIT (code)](https://img.shields.io/badge/Code%20License-MIT-yellow.svg)](LICENSE-CODE)
 [![License: CC BY 4.0 (docs)](https://img.shields.io/badge/Docs%20License-CC%20BY%204.0-lightgrey.svg)](LICENSE-DOCS)
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
@@ -49,9 +49,9 @@ If you use this repository, please cite **both** the manuscript **and** the Zeno
 
 ```bibtex
 @article{TorddisEAIT2026,
-    author  = {Almeida-Due\~nas, Carlos and Plazarte-Su\'arez, John and
-               Guerrero-Ulloa, Gleiston and Erazo-Moreta, Orlando and
-               Hornos, Miguel J. and Rodr\'iguez-Dom\'inguez, Carlos},
+    author  = {Guerrero-Ulloa, Gleiston and Almeida-Dueñas, Carlos and 
+	 Plazarte-Suárez, John and Erazo-Moreta, Orlando and
+               Hornos, Miguel J. and Rodríguez-Domínguez, Carlos},
     title   = {Torddis: A real-time {IoT} and {AI}-based system to support
                at-home learning and mitigate parental absenteeism},
     journal = {Education and Information Technologies},
@@ -60,15 +60,15 @@ If you use this repository, please cite **both** the manuscript **and** the Zeno
 }
 
 @dataset{TorddisRepo2026,
-    author    = {Almeida-Due\~nas, Carlos and Plazarte-Su\'arez, John and
-                 Guerrero-Ulloa, Gleiston and Erazo-Moreta, Orlando and
-                 Hornos, Miguel J. and Rodr\'iguez-Dom\'inguez, Carlos},
+    author    = {Guerrero-Ulloa, Gleiston and Almeida-Dueñas, Carlos and 
+	   Plazarte-Suárez, John and Erazo-Moreta, Orlando and
+                 Hornos, Miguel J. and Rodríguez-Domínguez, Carlos},
     title     = {{Torddis} reproducibility package (source code, data,
                  documentation and analysis notebooks)},
     year      = {2026},
     publisher = {Zenodo},
-    doi       = {10.5281/zenodo.XXXXXXX},
-    url       = {https://doi.org/10.5281/zenodo.XXXXXXX}
+    doi       = {10.5281/zenodo.21367334},
+    url       = {https://doi.org/10.5281/zenodo.21367334}
 }
 ```
 

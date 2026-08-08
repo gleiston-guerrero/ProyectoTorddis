@@ -55,13 +55,5 @@
     "upload_type": "dataset",
     "access_right": "open",
     "license": "cc-by-4.0",
-    "related_identifiers": [
-        {
-            "relation": "isDerivedFrom",
-            "identifier": "https://github.com/CarlosAlmeida2000/ProyectoTorddis",
-            "resource_type": "software",
-            "scheme": "url"
-        }
-    ],
-    "notes": "This deposit is a dual-licensed dataset. Source code (subdirectories src/ and analysis/) is licensed under the MIT licence; documentation, data, instruments and ethics documentation (docs/, data/, instruments/, ethics/, README.md, CITATION.cff, CHANGELOG.md) are licensed under Creative Commons Attribution 4.0 International (CC-BY 4.0). The DOI of the peer-reviewed manuscript will be linked to this deposit as 'isSupplementTo' via Zenodo's UI once the manuscript is accepted."
+    "notes": "This deposit is a dual-licensed dataset. Source code (subdirectories src/ and analysis/) is licensed under the MIT licence; documentation, data, instruments and ethics documentation (docs/, data/, instruments/, ethics/, README.md, CITATION.cff, CHANGELOG.md) are licensed under Creative Commons Attribution 4.0 International (CC-BY 4.0). Related GitHub repository: https://github.com/gleiston-guerrero/ProyectoTorddis. The DOI of the peer-reviewed manuscript will be linked to this deposit via Zenodo's UI once the manuscript is accepted."
 }

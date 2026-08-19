@@ -1,0 +1,9 @@
+{
+    "id": 1,
+    "tutor_id": 1,
+    "persona_id": 2,
+    "persona__nombres": "Demo",
+    "persona__apellidos": "Child",
+    "persona__fecha_nacimiento": "2015-01-01",
+    "persona__foto_perfil": null
+}

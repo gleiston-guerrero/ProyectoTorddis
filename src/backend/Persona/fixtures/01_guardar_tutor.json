@@ -1,0 +1,11 @@
+{
+    "id": 1,
+    "usuario": "demo_guardian",
+    "clave": "<set-at-runtime>",
+    "correo": "guardian@example.invalid",
+    "persona_id": 1,
+    "persona__nombres": "Demo",
+    "persona__apellidos": "Guardian",
+    "persona__fecha_nacimiento": "1985-01-01",
+    "persona__foto_perfil": null
+}

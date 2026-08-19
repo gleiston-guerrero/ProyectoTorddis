@@ -140,3 +140,9 @@ iot_device_content.txt
 _tmp_pkg/
 *.bak
 *.tmp
+
+# ---- No publicable: biometria, datos personales y secretos ----
+src/backend/Monitoreo/modelos_entrenados/reconocedor_facial.xml
+src/backend/media/Perfiles/
+src/backend/media/Objetos/
+.env

@@ -146,3 +146,5 @@ src/backend/Monitoreo/modelos_entrenados/reconocedor_facial.xml
 src/backend/media/Perfiles/
 src/backend/media/Objetos/
 .env
+src/backend/Monitoreo/modelos_entrenados/reconocedor_*.xml
+src/backend/media/Evidencias/

@@ -131,3 +131,16 @@ STATIC_URL = '/static/'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join('media/')
+
+
+# ---------------------------------------------------------------------------
+# Torddis: minimizacion de datos
+# ---------------------------------------------------------------------------
+# Si es False (valor por defecto), los eventos de distraccion se registran sin
+# imagen de evidencia. Solo debe activarse cuando el representante legal lo
+# haya solicitado expresamente y con conocimiento de sus implicaciones.
+TORDDIS_GUARDAR_EVIDENCIAS = os.environ.get('TORDDIS_GUARDAR_EVIDENCIAS', 'False') == 'True'
+
+# Dias que se conservan las imagenes de evidencia cuando el guardado esta
+# activado. La purga la ejecuta: python manage.py purgar_evidencias
+TORDDIS_DIAS_RETENCION_EVIDENCIAS = int(os.environ.get('TORDDIS_DIAS_RETENCION_EVIDENCIAS', '7'))

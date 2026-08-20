@@ -5,6 +5,7 @@ import numpy as np
 import imutils
 import cv2
 import os
+import shutil
 
 class EntrenamiFacial:
     def __init__(self):
@@ -88,17 +89,20 @@ class EntrenamiFacial:
             cv2.destroyAllWindows()
             self.fin_entrenamiento = True
             # entrenamiento del modelo con todas las imágenes
-            lista_personas = os.listdir(self.ruta_rostros)
-            for persona in lista_personas:
-                directorio_persona = self.ruta_rostros + '\\' + persona
-                for archivo_foto in os.listdir(directorio_persona):
-                    self.etiquetas.append(self.cont_etiquetas)
-                    self.datos_rostros.append(cv2.imread(directorio_persona + '\\' + str(archivo_foto), 0))
-                self.cont_etiquetas += 1
+            # Se entrena un modelo individual para este menor, con sus propias
+            # imagenes unicamente. Un modelo por menor permite eliminar sus
+            # datos biometricos sin afectar a los demas.
+            directorio_persona = self.ruta_rostros + '\\' + str(self.supervisado.pk)
+            for archivo_foto in os.listdir(directorio_persona):
+                self.etiquetas.append(0)
+                self.datos_rostros.append(cv2.imread(directorio_persona + '\\' + str(archivo_foto), 0))
             reconocedor_facial = cv2.face.LBPHFaceRecognizer_create()
-            reconocedor_facial.train(self.datos_rostros, np.array(self.etiquetas)) 
-            reconocedor_facial.write(self.ruta_modelos + 'reconocedor_facial.xml')
-            print("Modelo de reconocimiento facial almacenado...")
+            reconocedor_facial.train(self.datos_rostros, np.array(self.etiquetas))
+            reconocedor_facial.write(self.ruta_modelos + 'reconocedor_' + str(self.supervisado.pk) + '.xml')
+            # Minimizacion de datos: una vez entrenado el modelo, las imagenes
+            # del rostro dejan de ser necesarias y se eliminan.
+            shutil.rmtree(directorio_persona, ignore_errors = True)
+            print("Modelo de reconocimiento facial almacenado. Imagenes de entrenamiento eliminadas.")
             return 'entrenado'
         except Camaras.DoesNotExist or Supervisados.DoesNotExist:
             return 'camara no encontrada'

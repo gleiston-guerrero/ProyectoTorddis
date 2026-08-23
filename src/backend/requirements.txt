@@ -1,3 +1,19 @@
+# Torddis back-end - verified environment
+#
+# Python 3.9 (the project was developed on 3.9; the .pyc files under
+# migrations/__pycache__ carry the cpython-39 tag). TensorFlow 2.8.0 and
+# psycopg2 2.8.6 have no wheels for Python 3.10 or 3.11, so this file cannot
+# be installed on those versions.
+#
+# Verified on 23 August 2026: Python 3.9.13 on Windows, clean virtual
+# environment, `pip install -r requirements.txt` followed by an import of
+# tensorflow, mediapipe, cv2 and imutils in the same process.
+#
+#     py -3.9 -m venv .venv
+#     .venv\Scripts\activate
+#     pip install -r requirements.txt
+#     python manage.py test Persona Monitoreo --settings=WebServicesTorddis.settings_test
+
 arrow==0.15.8
 asgiref==3.4.1
 certifi==2021.10.8
@@ -13,11 +29,14 @@ djangorestframework==3.13.1
 filelock==3.4.2
 gunicorn==20.1.0
 idna==3.3
+imutils==0.5.4
+mediapipe==0.10.5
 numpy==1.23.1
 opencv-python==4.6.0.66
 opencv-contrib-python==4.6.0.66
 Pillow==9.0.0
 platformdirs==2.4.1
+protobuf==3.20.3
 psycopg2==2.8.6
 psycopg2-binary==2.8.6
 pycparser==2.21
@@ -31,3 +50,18 @@ tensorflow==2.8.0
 tzdata==2021.5
 urllib3==1.26.8
 whitenoise==6.0.0
+
+# Notes on the three entries added or pinned in this revision
+#
+# imutils   - imported by Monitoreo/entrenamiento_facial.py but absent from
+#             the previous file, so the back-end could not start.
+# mediapipe - imported by Monitoreo/reconocimiento.py (Face Mesh, drowsiness
+#             detection) but absent from the previous file. Version 0.10.5 is
+#             the earliest release with a Python 3.9 wheel for Windows; the
+#             0.9.x line used during development in January 2023 is no longer
+#             distributed for this platform. 0.10.5 requires protobuf<4,
+#             which is the same constraint TensorFlow 2.8 needs.
+# protobuf  - previously unpinned, so pip resolved it to a 6.x release and
+#             TensorFlow 2.8 failed to import with "Descriptors cannot be
+#             created directly". 3.20.3 is the highest version compatible
+#             with both TensorFlow 2.8 and mediapipe 0.10.5.

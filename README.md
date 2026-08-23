@@ -1,9 +1,9 @@
 # Torddis — Reproducibility Package
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21367334.svg)](https://doi.org/10.5281/zenodo.21367334)
+[![DOI (embargoed)](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21367334%20(embargoed)-lightgrey.svg)](https://doi.org/10.5281/zenodo.21367334)
 [![License: MIT (code)](https://img.shields.io/badge/Code%20License-MIT-yellow.svg)](LICENSE-CODE)
 [![License: CC BY 4.0 (docs)](https://img.shields.io/badge/Docs%20License-CC%20BY%204.0-lightgrey.svg)](LICENSE-DOCS)
-[![Python 3.11+](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
+[![Python 3.9 (back-end)](https://img.shields.io/badge/Python-3.9%20back--end-blue.svg)](https://www.python.org/) [![Python 3.11 (analysis)](https://img.shields.io/badge/Python-3.11%20analysis-blue.svg)](https://www.python.org/)
 [![Android SDK 33+](https://img.shields.io/badge/Android-SDK%2033+-green.svg)](https://developer.android.com/)
 
 Reproducibility package for the manuscript:
@@ -45,15 +45,15 @@ This repository is the **companion reproducibility package** of the manuscript s
 
 ## How to cite
 
-If you use this repository, please cite **both** the manuscript **and** the Zenodo deposit:
+If you use this repository, please cite **both** the manuscript **and** the Zenodo deposit. The Zenodo archive is embargoed until the manuscript is accepted; the DOI below is reserved and will resolve to a public record on release.
 
 ```bibtex
 @article{TorddisEAIT2026,
     author  = {Guerrero-Ulloa, Gleiston and Almeida-Dueñas, Carlos and 
 	 Plazarte-Suárez, John and Erazo-Moreta, Orlando and
                Hornos, Miguel J. and Rodríguez-Domínguez, Carlos},
-    title   = {Torddis: A real-time {IoT} and {AI}-based system to support
-               at-home learning and mitigate parental absenteeism},
+    title   = {Torddis: An {AI}- and {IoT}-Based At-Home Study-Support System
+               Grounded in Self-Regulated Learning --- A Guardian-Reported Usability and Technical Feasibility Pilot},
     journal = {Education and Information Technologies},
     year    = {2026},
     note    = {Under review}
@@ -68,7 +68,8 @@ If you use this repository, please cite **both** the manuscript **and** the Zeno
     year      = {2026},
     publisher = {Zenodo},
     doi       = {10.5281/zenodo.21367334},
-    url       = {https://doi.org/10.5281/zenodo.21367334}
+    url       = {https://doi.org/10.5281/zenodo.21367334},
+    note      = {Embargoed until the manuscript is accepted}
 }
 ```
 
@@ -111,7 +112,7 @@ torddis/
 │   ├── mobile-app/                               ← Android application (Java, SDK 33+)
 │   ├── iot-device/
 │   │   └── esp32-cam/                            ← ESP32-CAM firmware (C/C++)
-│   ├── backend/                                  ← Django REST back-end (Python 3.11)
+│   ├── backend/                                  ← Django REST back-end (Python 3.9)
 │   └── README.md                                 ← how each module maps to the manuscript
 │
 ├── data/                                         ← Pseudonymised experimental data
@@ -175,7 +176,8 @@ torddis/
 
 ### Prerequisites
 
-- Python **3.11 or later** (for the analysis notebooks and back-end).
+- Python **3.9** for the back-end (`src/backend/`). TensorFlow 2.8.0 and psycopg2 2.8.6 publish no wheels for 3.10 or 3.11, so `requirements.txt` installs only on 3.9.
+- Python **3.11 or later** for the statistical analysis notebooks (`analysis/`), which share no dependency with the back-end.
 - Android Studio **Hedgehog (2023.1.1)** or later, with SDK 33+, for the mobile app.
 - PlatformIO **6.x** or the Arduino IDE **2.x**, for the ESP32-CAM firmware.
 - Git **2.30+**.
@@ -266,7 +268,7 @@ The Torddis system and its documentation follow the international standards list
 | ISO/IEC/IEEE 42010:2022 | Architecture description | `docs/architecture/` |
 | ISO/IEC/IEEE 29119-1:2022 | Software testing | `docs/testing/test-plan.md` |
 | ISO/IEC 27001:2022 | Information security | `ethics/privacy-impact-assessment.md` |
-| FAIR Data Principles (2016) | Data reuse | This repository is Findable (DOI), Accessible (Zenodo/GitHub), Interoperable (CSV, MD, PDF) and Reusable (CC-BY 4.0 licence, data dictionary) |
+| FAIR Data Principles (2016) | Data reuse | Findable (DOI reserved); Accessible (this GitHub repository; the Zenodo archive is embargoed until the manuscript is accepted, after which the DOI resolves to a public record); Interoperable (CSV, MD, PDF); Reusable (CC-BY 4.0 licence, data dictionary) |
 
 ---
 

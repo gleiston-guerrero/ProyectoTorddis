@@ -9,6 +9,6 @@ jupyterlab==4.2.0
 jupytext==1.16.2
 notebook==7.2.0
 ipykernel==6.29.4
-pingouin==0.5.4
+pingouin==0.6.1
 openpyxl==3.1.2
 pyreadstat==1.2.7

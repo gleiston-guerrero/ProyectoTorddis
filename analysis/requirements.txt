@@ -3,7 +3,7 @@ scipy==1.13.0
 pandas==2.2.2
 matplotlib==3.8.4
 seaborn==0.13.2
-statsmodels==0.14.2
+statsmodels==0.15.0
 scikit-learn==1.4.2
 jupyterlab==4.2.0
 jupytext==1.16.2

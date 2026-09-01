@@ -14,7 +14,7 @@
 #     pip install -r requirements.txt
 #     python manage.py test Persona Monitoreo --settings=WebServicesTorddis.settings_test
 
-arrow==0.15.8
+arrow==1.4.0
 asgiref==3.4.1
 certifi==2021.10.8
 cffi==1.15.0

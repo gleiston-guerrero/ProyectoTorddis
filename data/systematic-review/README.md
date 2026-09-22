@@ -1,68 +1,52 @@
-# Systematic review — data extraction
+# Systematic review — screening records
 
-This directory holds the reproducibility artefacts of the systematic review reported in Section 3 of the manuscript.
+This directory holds the reproducibility artefacts of the systematic review reported in Section 3 of the manuscript and in Supplementary Section S10 (Online Resource 1).
 
 ## Files
 
-| File | Description | Status |
-|------|-------------|--------|
-| `included-studies.csv` | The 68 included studies with full bibliographic metadata and the seven-capability coding used in Table 3 of the manuscript. | **Complete** (generated from the manuscript source) |
-| `screening-decisions.csv` | Record-level screening and eligibility decisions (4,881 identified → 68 included). | **Missing — must be supplied by the authors** |
-| `search-strings.csv` | Exact query string executed in each database, with execution date and hit count. | **Missing — must be supplied by the authors** |
+| File | Content |
+|------|---------|
+| `cribado-torddis.xlsx` | The 4,321 unique records retained after deduplication, one row per record, with the decision and reason of the automated pass, the final decision and reason, and the stage at which each decision was taken. Includes the PRISMA counts, the provenance of every decision and the dual-reviewer verification sample. |
+| `torddis-registros-retirados.xlsx` | Detail of the automatic pre-screen: 345 records withdrawn (39 theses, 323 records without a verifiable DOI, 47 records published before 2015; 409 reasons in total, because some records failed more than one criterion). |
+| `informe-doi.xlsx` | Audit of the DOI field of the 4,321 records (valid, malformed and missing DOIs). |
+| `informe-recuperacion-doi.xlsx` | Automated recovery of missing DOIs through bibliographic services, with accepted, to-review and not-found records and the query log. |
 
-## `included-studies.csv`
+## `cribado-torddis.xlsx`
 
-68 rows, one per included study. Columns:
+| Sheet | Content |
+|-------|---------|
+| `Instrucciones` | Instructions for reading the workbook. |
+| `Cribado` | One row per unique record (see columns below). |
+| `PRISMA` | Counts computed with formulas from the `Cribado` sheet; they reproduce Figure 1 and Table 2 of the manuscript. |
+| `Revisores` | Reviewer register. |
+| `Reconstruccion` | Provenance of the reviewer decisions, stage by stage, with the number of records in each stage. |
+| `Muestra verificacion` | Stratified random sample of 42 of the 80 reports excluded after full-text assessment (fixed seed 20260919), with the independent decision of two reviewers, the third-reviewer decision where they disagreed, and the agreement with the automated decision. |
 
-| Column | Type | Description |
-|--------|------|-------------|
-| `no` | int | Row number in Table 3 of the manuscript (1–68). |
-| `citation_key` | string | BibTeX key in `tordis-eait.bib`. |
-| `authors` | string | Author list as recorded in the bibliography. |
-| `year` | int | Publication year (2016–2026). |
-| `title` | string | Title of the study. |
-| `venue` | string | Journal, proceedings or publisher. |
-| `volume`, `number`, `pages` | string | Bibliographic locators (empty where not applicable). |
-| `doi` | string | DOI. Present for all 68 records. |
-| `FE` | 0/1 | Facial-expression / emotion recognition. |
-| `DR` | 0/1 | Drowsiness / fatigue detection. |
-| `OB` | 0/1 | Distracting-object detection. |
-| `AT` | 0/1 | Attention / engagement estimation. |
-| `IN` | 0/1 | Real-time in-situ intervention. |
-| `IoT` | 0/1 | Deployment on a dedicated IoT / edge device. |
-| `HM` | 0/1 | Explicit home / self-regulation orientation. |
-| `capabilities_covered` | int | Row sum of the seven capability flags (0–7). |
+Columns of the `Cribado` sheet:
 
-### Capability frequencies (reproducible from this file)
+| Column | Description |
+|--------|-------------|
+| `id` | Record identifier. |
+| `decision_automatica`, `motivo_automatico` | Decision (`Incluir`, `Dudoso`, `Excluir`) and reason assigned by the automated rule-based pass. |
+| `revisor_decision`, `revisor_motivo` | Final decision and reason after verification. |
+| `etapa_revisor` | Stage at which the final decision was taken: full text, abstract only (full text not retrievable), probe for omissions, or resolution by scope. |
+| `categoria_exclusion_elegibilidad` | For reports excluded after eligibility assessment, the first eligibility criterion violated. |
+| `score`, `conceptos` | Relevance score and concepts detected by the automated pass. |
+| `base`, `tambien_en` | Database in which the record was first retrieved, and further databases in which it appears. |
+| `year`, `doc_type`, `authors`, `title`, `abstract`, `venue`, `keywords`, `doi` | Bibliographic metadata as exported by the databases. |
 
-| Capability | Studies |
-|------------|---------|
-| AT — attention / engagement | 53 / 68 |
-| IN — real-time in-situ intervention | 47 / 68 |
-| FE — facial expression / emotion | 32 / 68 |
-| DR — drowsiness / fatigue | 27 / 68 |
-| IoT — dedicated IoT / edge device | 27 / 68 |
-| OB — distracting-object detection | 8 / 68 |
-| HM — home / self-regulation orientation | 8 / 68 |
+## Counts
 
-The maximum number of capabilities covered by any single included study is **6**; no study covers all seven, which is the gap claim made in Section 3.4 of the manuscript.
+| Stage | Records |
+|-------|---------|
+| Identified in the five databases | 5,194 |
+| Duplicates removed | 873 |
+| Unique records screened | 4,321 |
+| Withdrawn by the automatic pre-screen | 345 |
+| Reports assessed for eligibility | 84 |
+| Excluded after eligibility assessment | 80 |
+| **Studies included** | **4** |
 
-### Verification
+## Use of AI and human verification
 
-```python
-import pandas as pd
-d = pd.read_csv("included-studies.csv")
-assert len(d) == 68
-assert d["doi"].notna().all()                      # every included study has a DOI
-caps = ["FE", "DR", "OB", "AT", "IN", "IoT", "HM"]
-print(d[caps].sum())                               # capability frequencies
-assert d[caps].sum(axis=1).max() < 7                # no study covers all seven
-```
-
-## Note on the eligibility criteria
-
-The eligibility criteria stated in the manuscript (exclusion of theses, of records published before 2015 and of records without a valid DOI) apply to **this corpus of 68 systematically selected studies**, not to the background references cited narratively in Section 3.1 and in Supplementary Section S10.3. Every one of the 68 records in this file has a DOI and is a peer-reviewed study published in 2016 or later, which can be checked with the assertions above.
-
-## Outstanding
-
-The two files marked *Missing* above are required to make the identification and screening stages of the review reproducible. Until they are deposited, the manuscript must not claim that the complete set of retrieved records with their screening decisions is available in this repository.
+The title-and-abstract screening and the extraction of eligibility evidence from the full-text reports were carried out with the assistance of a generative AI tool (Claude, Anthropic), as declared in the manuscript. The four included studies were assessed independently by two authors, who agreed on all four. A stratified random sample of 42 of the 80 exclusions was re-assessed independently by the same two authors; they agreed on 39 of the 42 reports, the three disagreements were resolved by a third author, and the final decision coincided with the automated exclusion in all 42 reports. Three reports could not be retrieved in full text and were assessed on their abstract and metadata alone; they are flagged in the `etapa_revisor` column.

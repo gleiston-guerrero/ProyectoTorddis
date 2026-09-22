@@ -103,6 +103,6 @@ Aggregates (Table 7 of the manuscript): person 101 TP / 1 FP / 6 FN; facial expr
 
 ---
 
-## `systematic-review/Torddis_cribado_SLR.xlsx`
+## `systematic-review/cribado-torddis.xlsx`
 
-The 4,321 unique records retained after deduplication, with the screening decision and exclusion reason for each. The `source_database` column records the database in which the record was first retrieved; `also_found_in` lists any further databases in which it appears. Counts in the PRISMA sheet reproduce Figure 1 and Table 2 of the manuscript.
+The 4,321 unique records retained after deduplication, with the decision and reason of the automated pass, the final decision and reason, and the stage at which each decision was taken. The `base` column records the database in which the record was first retrieved; `tambien_en` lists any further databases in which it appears. The sheets, columns and the dual-reviewer verification sample are described in `systematic-review/README.md`. Counts in the PRISMA sheet reproduce Figure 1 and Table 2 of the manuscript.

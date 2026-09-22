@@ -14,7 +14,7 @@ data/
 │   ├── open-ended-responses.csv             (19 guardians × 8 open questions, 152 rows, redacted)
 │   └── recognition-events.csv               (108 elicited events × 4 AI modules: outcome + latency)
 ├── systematic-review/
-│   ├── Torddis_cribado_SLR.xlsx             (4,321 unique records with screening decisions)
+│   ├── cribado-torddis.xlsx                 (4,321 unique records: automated and final decisions, reasons, stage)
 │   └── README.md
 └── README.md                  ← this file
 ```

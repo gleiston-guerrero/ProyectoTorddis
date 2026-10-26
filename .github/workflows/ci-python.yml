@@ -6,12 +6,13 @@ on:
     paths:
       - 'analysis/**'
       - 'src/backend/**'
-      - 'src/ai-modules/**'
       - '.github/workflows/ci-python.yml'
   pull_request:
     branches: [main]
 
 jobs:
+  # The statistical notebooks run on a current Python; they share no
+  # dependency with the back-end.
   test-analysis:
     runs-on: ubuntu-latest
     steps:
@@ -37,28 +38,32 @@ jobs:
             jupyter nbconvert --to notebook --execute --inplace "$nb" || exit 1
           done
 
-      - name: Check that processed data was regenerated
-        run: |
-          test -f data/processed/normality-test-results.csv || echo "NOTE: notebooks require real data to regenerate the processed CSVs"
-
+  # The back-end is pinned to Python 3.9: TensorFlow 2.8.0 and psycopg2 2.8.6
+  # publish no wheels for 3.10 or 3.11, so requirements.txt cannot be
+  # installed on a newer interpreter.
   test-backend:
     runs-on: ubuntu-latest
-    if: github.event_name == 'pull_request'
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Python 3.11
+      - name: Set up Python 3.9
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.9'
+          cache: 'pip'
 
       - name: Install back-end dependencies
         working-directory: src/backend
         run: |
           python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          pip install -r requirements.txt
+
+      - name: Verify that the recognition stack imports
+        working-directory: src/backend
+        run: |
+          python -c "import tensorflow, mediapipe, cv2, imutils; print('recognition stack OK')"
 
       - name: Run Django unit tests
         working-directory: src/backend
         run: |
-          if [ -f manage.py ]; then python manage.py test; fi
+          python manage.py test Persona Monitoreo --settings=WebServicesTorddis.settings_test

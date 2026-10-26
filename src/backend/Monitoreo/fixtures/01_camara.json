@@ -1,4 +1,4 @@
 {
-    "direccion_ruta": "192.168.0.104:51",
+    "direccion_ruta": "<esp32-cam-ip>:51",
     "tutor_id": 1
 }

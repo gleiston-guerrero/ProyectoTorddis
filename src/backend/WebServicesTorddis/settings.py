@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'j_x9rd1hz03u38)u!ph8in1(&*d7pd=2o9wm$=2lxr$*rd$=q2'
+SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'insecure-development-key-change-me')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -82,11 +82,11 @@ WSGI_APPLICATION = 'WebServicesTorddis.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'Torddis',
-        'USER': 'postgres',
-        'PASSWORD': '123456',
-        'HOST': '127.0.0.1',
-        'DATABASE_PORT': '5432',
+        'NAME': os.environ.get('DB_NAME', 'Torddis'),
+        'USER': os.environ.get('DB_USER', 'postgres'),
+        'PASSWORD': os.environ.get('DB_PASSWORD', ''),
+        'HOST': os.environ.get('DB_HOST', '127.0.0.1'),
+        'DATABASE_PORT': os.environ.get('DB_PORT', '5432'),
     }
 }
 
@@ -131,3 +131,16 @@ STATIC_URL = '/static/'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join('media/')
+
+
+# ---------------------------------------------------------------------------
+# Torddis: minimizacion de datos
+# ---------------------------------------------------------------------------
+# Si es False (valor por defecto), los eventos de distraccion se registran sin
+# imagen de evidencia. Solo debe activarse cuando el representante legal lo
+# haya solicitado expresamente y con conocimiento de sus implicaciones.
+TORDDIS_GUARDAR_EVIDENCIAS = os.environ.get('TORDDIS_GUARDAR_EVIDENCIAS', 'False') == 'True'
+
+# Dias que se conservan las imagenes de evidencia cuando el guardado esta
+# activado. La purga la ejecuta: python manage.py purgar_evidencias
+TORDDIS_DIAS_RETENCION_EVIDENCIAS = int(os.environ.get('TORDDIS_DIAS_RETENCION_EVIDENCIAS', '7'))

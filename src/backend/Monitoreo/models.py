@@ -257,10 +257,16 @@ class Historial(models.Model):
             historial.observacion = observacion
             historial.supervisado = Supervisados.objects.get(pk = supervisado_id)
             historial.tipo_distraccion = TiposDistraccion.objects.get(pk = tipo_distraccion_id)
-            foto_450 = cv2.resize(imagen, (450, 450), interpolation = cv2.INTER_CUBIC)
-            frame_jpg = cv2.imencode('.png', foto_450)
-            file = ContentFile(frame_jpg[1]) 
-            historial.imagen_evidencia.save('dis_' + str(tipo_distraccion_id) + '_id_' + str(historial.supervisado.persona.id) + '_' + str(historial.fecha_hora) + '.png', file, save = True)
+            # La imagen de evidencia solo se conserva si el despliegue lo
+            # habilita expresamente. Por defecto se registra el evento sin
+            # imagen: el tipo de distraccion, la fecha y la observacion son
+            # suficientes para el historial, los reportes y los graficos.
+            from django.conf import settings
+            if getattr(settings, 'TORDDIS_GUARDAR_EVIDENCIAS', False) and imagen is not None:
+                foto_450 = cv2.resize(imagen, (450, 450), interpolation = cv2.INTER_CUBIC)
+                frame_jpg = cv2.imencode('.png', foto_450)
+                file = ContentFile(frame_jpg[1])
+                historial.imagen_evidencia.save('dis_' + str(tipo_distraccion_id) + '_id_' + str(historial.supervisado.persona.id) + '_' + str(historial.fecha_hora) + '.png', file, save = True)
             historial.save()
             return True
         except Exception as e:

@@ -19,8 +19,10 @@ WiFiClient wifiClient;
 
 #include "camera_pins.h"
 
-const char* ssid = "Software";
-const char* password = "SoftwareTesis10";
+// Wi-Fi credentials: set these for your own network before flashing.
+// Do not commit real credentials to version control.
+const char* ssid = "YOUR_WIFI_SSID";
+const char* password = "YOUR_WIFI_PASSWORD";
 
 #define BUZZER_PIN 16
 
@@ -114,7 +116,8 @@ void loop() {
   {
     Serial.println("Conectado ");
     HTTPClient http;//Instancia de la clasebool 
-    http.begin(wifiClient, "http://192.168.1.101:8000/monitoreo/distraccion/?direccion_ruta=192.168.1.103");
+    // Replace with the IP of your Django back-end and of this ESP32-CAM on your LAN.
+    http.begin(wifiClient, "http://BACKEND_IP:8000/monitoreo/distraccion/?direccion_ruta=DEVICE_IP");
     int httpCodGet = http.GET();
     if (httpCodGet == 200)
     {

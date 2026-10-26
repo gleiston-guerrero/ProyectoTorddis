@@ -1,5 +1,6 @@
 package com.example.torddis.interfaces;
 
 public interface APIBase {
-    public static String URLBASE="http://192.168.0.102:8000/";
+    // Replace with the IP or hostname of your Django back-end.
+    public static String URLBASE="http://BACKEND_IP:8000/";
 }

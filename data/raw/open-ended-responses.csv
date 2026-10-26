@@ -1,97 +1,153 @@
 participant_id,question_number,question_text_ES,response_text_ES
-G01,1,"En general, ¿cuál es su opinión del sistema?",Está bien hecho el sistema
-G01,2,¿Le agradaron los sonidos y/o luces que contiene el dispositivo Torddis?,Si
-G01,3,¿Le agradó el diseño de pantalla que contiene la aplicación móvil Torddis?,"Si, por el diseño"
-G01,4,¿Le parece adecuada la forma de visualizar los datos del monitoreo de distracción de su hijo(a) en la aplicación móvil Torddis?,"Si, porque estaban bien ordenado"
-G01,5,¿Cree usted que este sistema le ayudaría a mejorar la concentración de su hijo(a) de tal forma que usted se mantenga informado(a) cuando el menor se encuentre distraído?,"Si, porque está más concentrado"
-G01,6,¿Considera que hay algo que se debería mejorar en el sistema Torddis (Dispositivo y Aplicación móvil)?,"Si, la cámara"
-G01,7,¿Estaría usted dispuesto a continuar utilizando el sistema Torddis?,"Si, porque el niño aprende mejor"
-G01,8,¿Les recomendaría este sistema a otras personas interesadas en monitorear la distracción de los niños(as) cuando realizan las tareas escolares?,"Si, porque es muy importante para la concentración de los niños"
-G02,1,"En general, ¿cuál es su opinión del sistema?",Bien bonito
-G02,2,¿Le agradaron los sonidos y/o luces que contiene el dispositivo Torddis?,"Si, mucho me agradó"
-G02,3,¿Le agradó el diseño de pantalla que contiene la aplicación móvil Torddis?,"Si, porque es muy bonito"
-G02,4,¿Le parece adecuada la forma de visualizar los datos del monitoreo de distracción de su hijo(a) en la aplicación móvil Torddis?,Si
-G02,5,¿Cree usted que este sistema le ayudaría a mejorar la concentración de su hijo(a) de tal forma que usted se mantenga informado(a) cuando el menor se encuentre distraído?,"Si, porque me gustó mucho"
-G02,6,¿Considera que hay algo que se debería mejorar en el sistema Torddis (Dispositivo y Aplicación móvil)?,No le falta nada
-G02,7,¿Estaría usted dispuesto a continuar utilizando el sistema Torddis?,"Si, y mucho"
-G02,8,¿Les recomendaría este sistema a otras personas interesadas en monitorear la distracción de los niños(as) cuando realizan las tareas escolares?,"Si, porque es muy bonito"
-G03,1,"En general, ¿cuál es su opinión del sistema?",Qué está bien
-G03,2,¿Le agradaron los sonidos y/o luces que contiene el dispositivo Torddis?,"Si, porque no se duerme haciendo tareas"
-G03,3,¿Le agradó el diseño de pantalla que contiene la aplicación móvil Torddis?,"Si, me gustaron"
-G03,4,¿Le parece adecuada la forma de visualizar los datos del monitoreo de distracción de su hijo(a) en la aplicación móvil Torddis?,"Si, está bien"
-G03,5,¿Cree usted que este sistema le ayudaría a mejorar la concentración de su hijo(a) de tal forma que usted se mantenga informado(a) cuando el menor se encuentre distraído?,"Si, es bonito el uso"
-G03,6,¿Considera que hay algo que se debería mejorar en el sistema Torddis (Dispositivo y Aplicación móvil)?,Otro diseño del contenedor del dispositivo
-G03,7,¿Estaría usted dispuesto a continuar utilizando el sistema Torddis?,Si
-G03,8,¿Les recomendaría este sistema a otras personas interesadas en monitorear la distracción de los niños(as) cuando realizan las tareas escolares?,Claro que si
-G04,1,"En general, ¿cuál es su opinión del sistema?",Muy bonito
-G04,2,¿Le agradaron los sonidos y/o luces que contiene el dispositivo Torddis?,"Si, porque es algo muy bonito para que el niño esté pendiente"
-G04,3,¿Le agradó el diseño de pantalla que contiene la aplicación móvil Torddis?,"Si, me gustó"
-G04,4,¿Le parece adecuada la forma de visualizar los datos del monitoreo de distracción de su hijo(a) en la aplicación móvil Torddis?,"Si, bien la aplicación"
-G04,5,¿Cree usted que este sistema le ayudaría a mejorar la concentración de su hijo(a) de tal forma que usted se mantenga informado(a) cuando el menor se encuentre distraído?,"Si, para que el niño no se distraiga y aprenda mejor"
-G04,6,¿Considera que hay algo que se debería mejorar en el sistema Torddis (Dispositivo y Aplicación móvil)?,Está todo bien
-G04,7,¿Estaría usted dispuesto a continuar utilizando el sistema Torddis?,"Si, porque me gustó"
-G04,8,¿Les recomendaría este sistema a otras personas interesadas en monitorear la distracción de los niños(as) cuando realizan las tareas escolares?,"Si, porque es muy bonito"
-G05,1,"En general, ¿cuál es su opinión del sistema?",Qué es muy buena
-G05,2,¿Le agradaron los sonidos y/o luces que contiene el dispositivo Torddis?,Si
-G05,3,¿Le agradó el diseño de pantalla que contiene la aplicación móvil Torddis?,Si
-G05,4,¿Le parece adecuada la forma de visualizar los datos del monitoreo de distracción de su hijo(a) en la aplicación móvil Torddis?,"Si, porque se hace muy fácil"
-G05,5,¿Cree usted que este sistema le ayudaría a mejorar la concentración de su hijo(a) de tal forma que usted se mantenga informado(a) cuando el menor se encuentre distraído?,"Si, porque avisa cuando está distraído"
-G05,6,¿Considera que hay algo que se debería mejorar en el sistema Torddis (Dispositivo y Aplicación móvil)?,No
-G05,7,¿Estaría usted dispuesto a continuar utilizando el sistema Torddis?,Si
-G05,8,¿Les recomendaría este sistema a otras personas interesadas en monitorear la distracción de los niños(as) cuando realizan las tareas escolares?,"Si, porque ayuda mucho"
-G06,1,"En general, ¿cuál es su opinión del sistema?",Es de mucha ayuda para los padres
-G06,2,¿Le agradaron los sonidos y/o luces que contiene el dispositivo Torddis?,"Si, porque llama la atención"
-G06,3,¿Le agradó el diseño de pantalla que contiene la aplicación móvil Torddis?,"Si, por los colores"
-G06,4,¿Le parece adecuada la forma de visualizar los datos del monitoreo de distracción de su hijo(a) en la aplicación móvil Torddis?,"Si, porque es fácil"
-G06,5,¿Cree usted que este sistema le ayudaría a mejorar la concentración de su hijo(a) de tal forma que usted se mantenga informado(a) cuando el menor se encuentre distraído?,"Si, por la alarma para saber si esta atento o no"
-G06,6,¿Considera que hay algo que se debería mejorar en el sistema Torddis (Dispositivo y Aplicación móvil)?,La camara esta borrosa
-G06,7,¿Estaría usted dispuesto a continuar utilizando el sistema Torddis?,"Si, para estar atento a mi hijo"
-G06,8,¿Les recomendaría este sistema a otras personas interesadas en monitorear la distracción de los niños(as) cuando realizan las tareas escolares?,"Si, para que sus niños esten atentos a las tareas"
-G07,1,"En general, ¿cuál es su opinión del sistema?",Que es muy bonita
-G07,2,¿Le agradaron los sonidos y/o luces que contiene el dispositivo Torddis?,Si
-G07,3,¿Le agradó el diseño de pantalla que contiene la aplicación móvil Torddis?,"Si, los colores estaban bonitos"
-G07,4,¿Le parece adecuada la forma de visualizar los datos del monitoreo de distracción de su hijo(a) en la aplicación móvil Torddis?,"Si, para saber todos los datos"
-G07,5,¿Cree usted que este sistema le ayudaría a mejorar la concentración de su hijo(a) de tal forma que usted se mantenga informado(a) cuando el menor se encuentre distraído?,"Si, para ponerle saber que esta pasando de porque no hace las tareas"
-G07,6,¿Considera que hay algo que se debería mejorar en el sistema Torddis (Dispositivo y Aplicación móvil)?,"no, para mi esta bien"
-G07,7,¿Estaría usted dispuesto a continuar utilizando el sistema Torddis?,"Si, me ayudaria a tener en cuenta a mi hijo"
-G07,8,¿Les recomendaría este sistema a otras personas interesadas en monitorear la distracción de los niños(as) cuando realizan las tareas escolares?,"Si, para que los papás sepan que hacen sus hijos"
-G08,1,"En general, ¿cuál es su opinión del sistema?",Me gusto la parte de ver el video en vivo
-G08,2,¿Le agradaron los sonidos y/o luces que contiene el dispositivo Torddis?,"Si, porque informa que está distraído"
-G08,3,¿Le agradó el diseño de pantalla que contiene la aplicación móvil Torddis?,"Si, esta bonito"
-G08,4,¿Le parece adecuada la forma de visualizar los datos del monitoreo de distracción de su hijo(a) en la aplicación móvil Torddis?,"Si, con la cámara que tiene"
-G08,5,¿Cree usted que este sistema le ayudaría a mejorar la concentración de su hijo(a) de tal forma que usted se mantenga informado(a) cuando el menor se encuentre distraído?,"Si, cuando suena la alarma para que este atento"
-G08,6,¿Considera que hay algo que se debería mejorar en el sistema Torddis (Dispositivo y Aplicación móvil)?,Mejorar la cajita de camara
-G08,7,¿Estaría usted dispuesto a continuar utilizando el sistema Torddis?,Si
-G08,8,¿Les recomendaría este sistema a otras personas interesadas en monitorear la distracción de los niños(as) cuando realizan las tareas escolares?,"Si, porque esta bonita"
-G09,1,"En general, ¿cuál es su opinión del sistema?",Me avisa cuando mi hijo se desconcentra
-G09,2,¿Le agradaron los sonidos y/o luces que contiene el dispositivo Torddis?,"Si, porque hace que el niño se despierte"
-G09,3,¿Le agradó el diseño de pantalla que contiene la aplicación móvil Torddis?,"Si, los gráficos están bonitos"
-G09,4,¿Le parece adecuada la forma de visualizar los datos del monitoreo de distracción de su hijo(a) en la aplicación móvil Torddis?,"Si, me ayuda a ver como esta mi niña con las tareas"
-G09,5,¿Cree usted que este sistema le ayudaría a mejorar la concentración de su hijo(a) de tal forma que usted se mantenga informado(a) cuando el menor se encuentre distraído?,"Si, ayuda cuando no lo estoy vigilando"
-G09,6,¿Considera que hay algo que se debería mejorar en el sistema Torddis (Dispositivo y Aplicación móvil)?,"La camara no se ve bien, se podria mejorar con una mejor."
-G09,7,¿Estaría usted dispuesto a continuar utilizando el sistema Torddis?,"Si, me ayudaria mucho"
-G09,8,¿Les recomendaría este sistema a otras personas interesadas en monitorear la distracción de los niños(as) cuando realizan las tareas escolares?,"Si, porque ayuda a estar atento a las tareas"
-G10,1,"En general, ¿cuál es su opinión del sistema?",que esta bien el sistema
-G10,2,¿Le agradaron los sonidos y/o luces que contiene el dispositivo Torddis?,Si
-G10,3,¿Le agradó el diseño de pantalla que contiene la aplicación móvil Torddis?,"Si, todo esta bien acomodado"
-G10,4,¿Le parece adecuada la forma de visualizar los datos del monitoreo de distracción de su hijo(a) en la aplicación móvil Torddis?,"Si, todo bien organizado"
-G10,5,¿Cree usted que este sistema le ayudaría a mejorar la concentración de su hijo(a) de tal forma que usted se mantenga informado(a) cuando el menor se encuentre distraído?,"Si, esta bonita la alerta"
-G10,6,¿Considera que hay algo que se debería mejorar en el sistema Torddis (Dispositivo y Aplicación móvil)?,Todo estab bien bonito
-G10,7,¿Estaría usted dispuesto a continuar utilizando el sistema Torddis?,"Si, para saber que esta pasando con mi niño"
-G10,8,¿Les recomendaría este sistema a otras personas interesadas en monitorear la distracción de los niños(as) cuando realizan las tareas escolares?,"Si, para que vean si hace deberes"
-G11,1,"En general, ¿cuál es su opinión del sistema?",Esta bonito
-G11,2,¿Le agradaron los sonidos y/o luces que contiene el dispositivo Torddis?,"Si, porque hace que el niño esté pendiente"
-G11,3,¿Le agradó el diseño de pantalla que contiene la aplicación móvil Torddis?,"Si, por los colores de las opciones"
-G11,4,¿Le parece adecuada la forma de visualizar los datos del monitoreo de distracción de su hijo(a) en la aplicación móvil Torddis?,"Si, para saber cuando esta atento o no."
-G11,5,¿Cree usted que este sistema le ayudaría a mejorar la concentración de su hijo(a) de tal forma que usted se mantenga informado(a) cuando el menor se encuentre distraído?,"Si, para saber cuando no esta poniendo atención."
-G11,6,¿Considera que hay algo que se debería mejorar en el sistema Torddis (Dispositivo y Aplicación móvil)?,La camara más clara
-G11,7,¿Estaría usted dispuesto a continuar utilizando el sistema Torddis?,"Si, ayuda a saber  si mi hijo no esta haciendo deberes"
-G11,8,¿Les recomendaría este sistema a otras personas interesadas en monitorear la distracción de los niños(as) cuando realizan las tareas escolares?,"Si, ayuda a tener control de la dedicación a los deberes"
-G12,1,"En general, ¿cuál es su opinión del sistema?",me notifica cuando el no está en su mesa
-G12,2,¿Le agradaron los sonidos y/o luces que contiene el dispositivo Torddis?,"Si, porque hace que el niño regrese a su lugar de estudio"
-G12,3,¿Le agradó el diseño de pantalla que contiene la aplicación móvil Torddis?,"Si, esta agradable"
-G12,4,¿Le parece adecuada la forma de visualizar los datos del monitoreo de distracción de su hijo(a) en la aplicación móvil Torddis?,"Si, se entiende"
-G12,5,¿Cree usted que este sistema le ayudaría a mejorar la concentración de su hijo(a) de tal forma que usted se mantenga informado(a) cuando el menor se encuentre distraído?,"Si, para saber que esta haciendo y llamarle la atención"
-G12,6,¿Considera que hay algo que se debería mejorar en el sistema Torddis (Dispositivo y Aplicación móvil)?,Más grande las letras
-G12,7,¿Estaría usted dispuesto a continuar utilizando el sistema Torddis?,"Si, para que suene la alarma y se ponga a hacer deberes"
-G12,8,¿Les recomendaría este sistema a otras personas interesadas en monitorear la distracción de los niños(as) cuando realizan las tareas escolares?,"Si, para que ayude a los padres."
+P01,1,Preguntas abiertas,Está bien hecho el sistema
+P01,2,,Si
+P01,3,,"Si, por el diseño"
+P01,4,,"Si, porque estaban bien ordenado"
+P01,5,,"Si, porque está más concentrado"
+P01,6,,"Si, la cámara"
+P01,7,,"Si, porque el niño aprende mejor"
+P01,8,,"Si, porque es muy importante para la concentración de los niños"
+P02,1,Preguntas abiertas,Bien bonito
+P02,2,,"Si, mucho me agradó"
+P02,3,,"Si, porque es muy bonito"
+P02,4,,Si
+P02,5,,"Si, porque me gustó mucho"
+P02,6,,No le falta nada
+P02,7,,"Si, y mucho"
+P02,8,,"Si, porque es muy bonito"
+P03,1,Preguntas abiertas,"Muy útil para controlar a mis hijos,son muy inquietos"
+P03,2,,"Si, porque me ayudan a hacer regresar a mi hijo a su lugar a su escritorio."
+P03,3,,"Si, esta agradable"
+P03,4,,"Si, se entiende"
+P03,5,,"Si, para saber que esta haciendo y llamarle la atención"
+P03,6,,Más grande las letras
+P03,7,,"Si, para que suene la alarma y se ponga a hacer deberes"
+P03,8,,"Si, para que ayude a los padres."
+P04,1,Preguntas abiertas,Qué está bien
+P04,2,,"Si, porque no se duerme haciendo tareas"
+P04,3,,"Si, me gustaron"
+P04,4,,"Si, está bien"
+P04,5,,"Si, es bonito el uso"
+P04,6,,Otro diseño del contenedor del dispositivo
+P04,7,,Si
+P04,8,,Claro que si
+P05,1,Preguntas abiertas,Muy bonito
+P05,2,,"Si, porque es algo muy bonito para que el niño esté pendiente"
+P05,3,,"Si, me gustó"
+P05,4,,"Si, bien la aplicación"
+P05,5,,"Si, para que el niño no se distraiga y aprenda mejor"
+P05,6,,Está todo bien
+P05,7,,"Si, porque me gustó"
+P05,8,,"Si, porque es muy bonito"
+P06,1,Preguntas abiertas,Qué es muy buena
+P06,2,,Si
+P06,3,,Si
+P06,4,,"Si, porque se hace muy fácil"
+P06,5,,"Si, porque avisa cuando está distraído"
+P06,6,,No
+P06,7,,Si
+P06,8,,"Si, porque ayuda mucho"
+P07,1,Preguntas abiertas,Es de mucha ayuda para los padres
+P07,2,,"Si, porque llama la atención"
+P07,3,,"Si, por los colores"
+P07,4,,"Si, porque es fácil"
+P07,5,,"Si, por la alarma para saber si esta atento o no"
+P07,6,,La camara esta borrosa
+P07,7,,"Si, para estar atento a mi hijo"
+P07,8,,"Si, para que sus niños esten atentos a las tareas"
+P08,1,Preguntas abiertas,Todo en su conjunto funciona bien
+P08,2,,"Si, se pueden usar de manera conjunta para llamar la atención."
+P08,3,,"Si, es atractivo y fácil de usar"
+P08,4,,"Si, para observar a mis hijos mientras están haciendo deberes"
+P08,5,,"Si, los padres estaríamos para ayudarles a volver a retomar las tareas cuando se distraigan"
+P08,6,,La nitidez del video
+P08,7,,"Si, me dice cuando mi hijo no está conecntrado, y me permite comunicarme con mis hijos al estar lejos."
+P08,8,,"Si, para que tengan control de la dedicación a sus hijos a la realización de los deberes"
+P09,1,Preguntas abiertas,Que es muy bonita
+P09,2,,Si
+P09,3,,"Si, los colores estaban bonitos"
+P09,4,,"Si, para saber todos los datos"
+P09,5,,"Si, para ponerle saber que esta pasando de porque no hace las tareas"
+P09,6,,"no, para mi esta bien"
+P09,7,,"Si, me ayudaria a tener en cuenta a mi hijo"
+P09,8,,"Si, para que los papás sepan que hacen sus hijos"
+P10,1,Preguntas abiertas,Me gusto la parte de ver el video en vivo
+P10,2,,"Si, porque informa que está distraído"
+P10,3,,"Si, esta bonito"
+P10,4,,"Si, con la cámara que tiene"
+P10,5,,"Si, cuando suena la alarma para que este atento"
+P10,6,,Mejorar la cajita de camara
+P10,7,,Si
+P10,8,,"Si, porque esta bonita"
+P11,1,Preguntas abiertas,Me avisa cuando mi hijo se desconcentra
+P11,2,,"Si, porque hace que el niño se despierte"
+P11,3,,"Si, los gráficos están bonitos"
+P11,4,,"Si, me ayuda a ver como esta mi niña con las tareas"
+P11,5,,"Si, ayuda cuando no la estoy vigilando"
+P11,6,,"La camara no se ve bien, se podria mejorar con una mejor."
+P11,7,,"Si, me ayudaria mucho"
+P11,8,,"Si, porque ayuda a estar atento a las tareas"
+P12,1,Preguntas abiertas,Que está bien el sistema
+P12,2,,Si
+P12,3,,"Si, todo esta bien acomodado"
+P12,4,,"Si, todo bien organizado"
+P12,5,,"Si, esta bonita la alerta"
+P12,6,,Todo estab bien bonito
+P12,7,,"Si, para saber que esta pasando con mi niño"
+P12,8,,"Si, para que vean si hace deberes"
+P13,1,Preguntas abiertas,Esta bonito
+P13,2,,"Si, porque hace que el niño esté pendiente"
+P13,3,,"Si, por los colores de las opciones"
+P13,4,,"Si, para saber cuando esta atento o no."
+P13,5,,"Si, para saber cuando no esta poniendo atención."
+P13,6,,La camara más clara
+P13,7,,"Si, ayuda a saber  si mi hijo no esta haciendo deberes"
+P13,8,,"Si, ayuda a tener control de la dedicación a los deberes"
+P14,1,Preguntas abiertas,El sistema es de gran utilidad
+P14,2,,"Sí, puedo usarse los de mi preferencia."
+P14,3,,"Si, me parece que su órden es el adecuado."
+P14,4,,"Si, todo se distingue bien."
+P14,5,,"Si, las alertas son adecuadas."
+P14,6,,"Est ámuy bien, pero podría mejorarse el muñeco, está un poco rústico."
+P14,7,,"Si, sale económico y es útil."
+P14,8,,"Si, para que vean a sus hijos cuando están lejos de casa."
+P15,1,Preguntas abiertas,Me notifica cuando el no está en su mesa
+P15,2,,"Si, porque hace que el niño regrese a su lugar de estudio"
+P15,3,,"Si, esta agradable"
+P15,4,,"Si, se entiende"
+P15,5,,"Si, para saber que esta haciendo y llamarle la atención"
+P15,6,,Más grande las letras
+P15,7,,"Si, para que suene la alarma y se ponga a hacer deberes"
+P15,8,,"Si, para que ayude a los padres."
+P16,1,Preguntas abiertas,Muy bueno
+P16,2,,"Sí,ayudan a estar atento"
+P16,3,,"Sí, muy informativo"
+P16,4,,"Sí, se comprenden fácilmete"
+P16,5,,"Sí, por supuesto, estaría siempre viendo lo que pasa."
+P16,6,,La calida del video.
+P16,7,,"Sí, me ayuda mucho mientras ellos se encuentran haciendo las tareas."
+P16,8,,"Sí, no creo que alguien no vaya a querer estar informado cuando no está cerca"
+P17,1,Preguntas abiertas,Es muy útil para quienes trabajamos y no hacen caso a quién se quede con ellos
+P17,2,,"Sí, le llaman la atenión a mi hijo, lo despiertan"
+P17,3,,"Sí,muy útil"
+P17,4,,"Sí, muy adecuados"
+P17,5,,"Sí, al sernotificado de alguna novedad, se le puede llamar la atención al niño con las notificaciones"
+P17,6,,La cámara
+P17,7,,"Sí, por su utilidad."
+P17,8,,"Sí, deben necesitar com estar pendientes de sus hjos"
+P18,1,Preguntas abiertas,Me gusto la parte de estar conectado con mis hijos
+P18,2,,"Si, porque mi hijos mucho se levantan mientras hacen tareas, y eso hizo que disminuya el tiempo fuera del lugar."
+P18,3,,"Si, es atractivo y funcional"
+P18,4,,"Si, pero la cámara debe mejorarse con una de mayor alcance"
+P18,5,,"Si, la aplicación me informa lo que está pasando"
+P18,6,,Aunque el muñeco es atractivo se debe mejorar su terminado
+P18,7,,"Sí, es de mucha ayuda, y hay resultados positivos a corto plazo"
+P18,8,,"Si, porque es de mucha ayuda"
+P19,1,Preguntas abiertas,Me avisa cuando mi hija sale del lugar sé en cuánto tiempo regresa.
+P19,2,,"Si, sé que tiempo en realidad necesita para las tareas."
+P19,3,,"Si, los gráficos de los informes son atractivos."
+P19,4,,"Si, me ayuda a ver cuán provecho le saca al tiempo en las tareas."
+P19,5,,"Si, ayuda cuando no estoy cerca, inclusive como dispositivo de seguridad"
+P19,6,,"La camara no se ve bien, se podria mejorar con una de mayor resolución."
+P19,7,,"Si, me sería de mucha utilidad"
+P19,8,,"Si, porque ayuda a estar atento cuando está haciendo las tareas"

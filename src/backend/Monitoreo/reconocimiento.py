@@ -55,10 +55,19 @@ class Distraccion:
             # Cargar el clasificador de detección de rostros pre entrenado de OpenCV
             self.clasificador_haar = cv2.CascadeClassifier('Monitoreo\\modelos_entrenados\\haarcascade_frontalface_default.xml')
             # Cargar el modelo para el reconocimiento facial: El reconocimiento facial se realiza mediante el clasificador de distancia y vecino más cercano
-            self.reconocedor_facial = cv2.face.LBPHFaceRecognizer_create()
-            self.reconocedor_facial.read(self.ruta_modelos + 'reconocedor_facial.xml')
-            # Se obtine la lista de personas a reconocer
-            self.lista_supervisados = os.listdir(self.ruta_rostros)
+            # Se carga un modelo por menor. La correspondencia entre modelo y
+            # menor va en el nombre del fichero, de modo que no se depende de
+            # que existan las imagenes de entrenamiento.
+            self.reconocedores = {}
+            for archivo in os.listdir(self.ruta_modelos):
+                if archivo.startswith('reconocedor_') and archivo.endswith('.xml'):
+                    pk_sup = archivo.replace('reconocedor_', '').replace('.xml', '')
+                    if not pk_sup.isdigit():
+                        continue
+                    modelo_sup = cv2.face.LBPHFaceRecognizer_create()
+                    modelo_sup.read(self.ruta_modelos + archivo)
+                    self.reconocedores[pk_sup] = modelo_sup
+            self.lista_supervisados = list(self.reconocedores.keys())
             self.persona_identif = None
             self.personas_desconocidas = 0
             self.es_desconocido = False
@@ -213,10 +222,17 @@ class Distraccion:
 
                             # ------ RECONOCIMIENTO # 1 - Identificador de identidad de las personas, se realiza el reconocimiento facial para verificar si es una persona registrada
                             rostro_150 = cv2.resize(rostro, (150, 150), interpolation = cv2.INTER_CUBIC)
-                            self.persona_identif = self.reconocedor_facial.predict(rostro_150)
-                            if self.persona_identif[1] < 70 and len(self.lista_supervisados):
+                            # Se evalua el rostro contra cada modelo individual
+                            # y se toma el de menor distancia.
+                            mejor_pk, mejor_dist = None, 999
+                            for pk_sup, modelo_sup in self.reconocedores.items():
+                                etiqueta_sup, distancia_sup = modelo_sup.predict(rostro_150)
+                                if distancia_sup < mejor_dist:
+                                    mejor_pk, mejor_dist = pk_sup, distancia_sup
+                            self.persona_identif = (mejor_pk, mejor_dist)
+                            if mejor_pk is not None and mejor_dist < 70:
                                 # Si es una persona registrada, se procede a realizar los otros tipos de reconocimiento
-                                self.supervisado = self.lista_supervisados[self.persona_identif[0]]
+                                self.supervisado = mejor_pk
                                 self.es_desconocido = False
                                 nombre = Supervisados.objects.get(pk = self.supervisado)
                                 cv2.putText(self.video,'{}'.format(nombre.persona.nombres), (x, y - 25), 2, 1.1, (0, 255, 0), 1, cv2.LINE_AA)

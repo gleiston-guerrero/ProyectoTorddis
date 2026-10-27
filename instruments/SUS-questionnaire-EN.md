@@ -1,6 +1,6 @@
 # System Usability Scale (SUS) — English reference version
 
-The System Usability Scale was originally developed by John Brooke (1996). It is administered as a 10-item Likert-scale questionnaire, with each item rated from **1 = Strongly disagree** to **5 = Strongly agree**.
+The System Usability Scale was originally developed by John Brooke (1996). It is administered as a 10-item Likert-scale questionnaire, with each item rated from **1 = Strongly disagree** to **5 = Strongly agree**. It was administered to the 19 participating guardians at the end of the monitored controlled session.
 
 Odd-numbered items are worded positively; even-numbered items are worded negatively. The SUS score is computed as follows:
 

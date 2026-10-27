@@ -35,7 +35,7 @@ Legend: ✅ addressed, ⚠ partially addressed, ❌ not applicable.
 
 | Sub-characteristic | Evidence | Status |
 |--------------------|----------|--------|
-| Appropriateness Recognisability | Interviews with 12 guardians confirmed that all icons and screens matched their expectations. | ✅ |
+| Appropriateness Recognisability | Interviews with 19 guardians confirmed that all icons and screens matched their expectations. | ✅ |
 | Learnability | New guardians completed the first configuration workflow (FR-01 → FR-03) in ≤ 10 minutes on average. | ✅ |
 | Operability | The mobile-app UI follows Material Design guidelines. | ✅ |
 | User Error Protection | Confirmation dialogs precede irreversible actions (delete child, revoke session). | ✅ |

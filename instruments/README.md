@@ -7,7 +7,7 @@ This directory contains the four instruments used to collect the empirical data 
 | File | Language | Description |
 |------|----------|-------------|
 | `SUS-questionnaire-EN.md` | English | Original 10-item System Usability Scale (SUS) by Brooke (1996). |
-| `SUS-questionnaire-ES.md` | Spanish | Version of the SUS administered to the 12 participating guardians. |
+| `SUS-questionnaire-ES.md` | Spanish | Version of the SUS administered to the 19 participating guardians. |
 | `demographic-survey-EN.md` | English | Demographic survey (English translation). |
 | `demographic-survey-ES.md` | Spanish | Demographic survey collected before the pilot session (tutor age, gender, education, occupation, area of residence, internet type, supervision time, child's age). |
 | `effectiveness-likert-EN.md` | English | Effectiveness Likert questionnaire (English translation). |

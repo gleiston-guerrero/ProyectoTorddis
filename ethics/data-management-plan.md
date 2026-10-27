@@ -10,7 +10,7 @@ This document is a Data Management Plan for the Torddis study, aligned with the 
 |------|-------------|--------|
 | Video frames (transient) | Captured by the ESP32-CAM at 2 Hz | Never stored |
 | Event log | Timestamp + category (person / facial / drowsiness / object) + confidence | ~ 1 record per second per session |
-| Questionnaire responses | SUS (10 items), effectiveness Likert (7 items), demographic (7 items), open-ended (8 items) | 12 guardians × 32 items = 384 records |
+| Questionnaire responses | SUS (10 items), effectiveness Likert (7 items), demographic (7 items), open-ended (8 items) | 19 guardians × 32 items = 608 records |
 | Latency measurements | Wall-clock times per module per session | 16 sessions × 4 modules = 64 records |
 
 ### 1.2 File formats

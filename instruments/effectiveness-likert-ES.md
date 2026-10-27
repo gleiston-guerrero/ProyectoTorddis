@@ -1,6 +1,6 @@
 # Cuestionario Likert de efectividad — versión en español
 
-Cuestionario diseñado *ad hoc* por el equipo de investigación para evaluar la percepción de eficacia del sistema Torddis por parte de los tutores participantes. Se aplicó tras la sesión piloto de 30 minutos.
+Cuestionario diseñado *ad hoc* por el equipo de investigación para evaluar la percepción de eficacia del sistema Torddis por parte de los tutores participantes. Se aplicó una vez completada la semana de uso libre del sistema en el domicilio, razón por la cual los enunciados 4 a 7 presuponen ese periodo.
 
 Cada afirmación se responde en una escala Likert de 5 puntos: **1 = totalmente en desacuerdo**, **5 = totalmente de acuerdo**.
 

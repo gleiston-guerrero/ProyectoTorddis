@@ -1,6 +1,6 @@
 # Escala de Usabilidad del Sistema (SUS) — versión en español
 
-Esta es la versión en español del *System Usability Scale* de Brooke (1996) que fue administrada a los 12 tutores participantes del estudio piloto. La traducción fue preparada por el equipo de investigación y revisada por un profesional de la educación.
+Esta es la versión en español del *System Usability Scale* de Brooke (1996) que fue administrada a los 19 tutores participantes del estudio piloto, al final de la sesión monitorizada controlada. La traducción fue preparada por el equipo de investigación y revisada por un profesional de la educación.
 
 Cada ítem se responde en una escala Likert de 5 puntos: **1 = totalmente en desacuerdo**, **5 = totalmente de acuerdo**.
 

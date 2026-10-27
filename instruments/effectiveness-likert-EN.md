@@ -1,6 +1,6 @@
 # Effectiveness Likert questionnaire — English version
 
-Questionnaire designed *ad hoc* by the research team to assess the guardians' perception of the effectiveness of the Torddis system. It was administered after the 30-minute pilot session.
+Questionnaire designed *ad hoc* by the research team to assess the guardians' perception of the effectiveness of the Torddis system. It was administered once the week of unsupervised use of the system at home had been completed, which is why statements 4 to 7 presuppose that period.
 
 Each statement is rated on a 5-point Likert scale: **1 = strongly disagree**, **5 = strongly agree**.
 

@@ -33,6 +33,12 @@ The unit of analysis differs across instruments, and the difference is reflected
 
 Nineteen guardians took part with 21 children. Two guardians participated with two children each and completed the seven-item perception questionnaire once per child, because five of its seven statements ask about that particular child. The remaining instruments concern the guardian's own experience and were completed once per guardian. No child completed any instrument.
 
+## When each instrument was administered, and what is not recorded
+
+The order was the same for every family: the demographic survey before the monitored session; the 30-minute monitored controlled session, with an evaluator present, which is the only phase in which every recognition event could be labelled as a correct or an incorrect detection and is therefore the source of the 108 events; the System Usability Scale at the end of that session; then a week of unsupervised use at home, with no evaluator and no monitoring by the research team; and the seven-item perception and acceptability questionnaire once that week had been completed, which is why four of its statements presuppose that period.
+
+**None of these files carries a timestamp.** The datasets identify participants and sessions but not dates: `recognition-events.csv` numbers the sessions 1 to 19 without indicating which belong to the April 2023 block and which to the May 2026 one, and no questionnaire file records when it was answered. The dates on which each household held its session, used the system at home and answered each instrument were not recorded at the time, so an exact per-family timeline cannot be reconstructed from this repository. The collection calendar is therefore reported in the manuscript at the level of blocks of sessions and familiarisation windows, and the limitation is stated there explicitly.
+
 ## Pseudonymisation and redaction
 
 Every dataset in `raw/` has been processed to remove personally identifying information:

@@ -20,7 +20,9 @@ This directory holds the reproducibility artefacts of the systematic review repo
 | `PRISMA` | Counts computed with formulas from the `Cribado` sheet; they reproduce Figure 1 and Table 2 of the manuscript. |
 | `Revisores` | Reviewer register. |
 | `Reconstruccion` | Provenance of the reviewer decisions, stage by stage, with the number of records in each stage. |
-| `Muestra verificacion` | Stratified random sample of 42 of the 80 reports excluded after full-text assessment (fixed seed 20260919), with the independent decision of two reviewers, the third-reviewer decision where they disagreed, and the agreement with the automated decision. |
+| `Muestra titulo-resumen` | Random sample of 353 of the 4,237 records excluded before full-text assessment (Cochran's formula with a finite-population correction, 95% confidence, 5% margin of error; stratified by exclusion category, fixed seed), with the independent decision of the first and third authors, the fourth-author decision where they disagreed, and the agreement with the automated decision. |
+| `Texto completo` | The 84 reports assessed for eligibility, with the independent decision of the second and third authors, the consensus decision where they disagreed, the final decision and its agreement with the automated one. |
+| `Ejecuciones automaticas` | Register of the runs of the automated screening pass. |
 
 Columns of the `Cribado` sheet:
 

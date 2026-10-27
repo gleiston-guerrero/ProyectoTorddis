@@ -42,11 +42,11 @@ Columns of the `Cribado` sheet:
 | Identified in the five databases | 5,194 |
 | Duplicates removed | 873 |
 | Unique records screened | 4,321 |
-| Withdrawn by the automatic pre-screen | 345 |
+| Withdrawn by the automatic pre-screen | 201 |
 | Reports assessed for eligibility | 84 |
-| Excluded after eligibility assessment | 80 |
-| **Studies included** | **4** |
+| Excluded after eligibility assessment | 81 |
+| **Studies included** | **3** |
 
 ## Use of AI and human verification
 
-The title-and-abstract screening and the extraction of eligibility evidence from the full-text reports were carried out with the assistance of a generative AI tool (Claude, Anthropic), as declared in the manuscript. The four included studies were assessed independently by two authors, who agreed on all four. A stratified random sample of 42 of the 80 exclusions was re-assessed independently by the same two authors; they agreed on 39 of the 42 reports, the three disagreements were resolved by a third author, and the final decision coincided with the automated exclusion in all 42 reports. Three reports could not be retrieved in full text and were assessed on their abstract and metadata alone; they are flagged in the `etapa_revisor` column.
+The title-and-abstract screening was carried out with four generative AI tools (ChatGPT, OpenAI; Claude, Anthropic; DeepSeek; and Gemini, Google), each run between three and five times, with the four sets of decisions combined by inter-tool consensus; the extraction of eligibility evidence from the full-text reports was carried out with Claude (Anthropic). Both are declared in the manuscript. All 84 reports assessed for eligibility were examined independently by the second and third authors, who agreed on 79 of them and settled the remaining 5 by consensus; the reviewers retained four reports, one of which was excluded later, when its eligibility was re-examined against the full text during the preparation of the manuscript, leaving three included studies. To verify the preceding stage, a random sample of 353 of the 4,237 records excluded before full-text assessment was re-assessed independently by the first and third authors, who agreed on 340 and referred the remaining 13 to the fourth author; the final decision coincided with that of the tools in all 353 records. Three reports could not be retrieved in full text and were assessed on their abstract and metadata alone; they are flagged in the `etapa_revisor` column.

@@ -7,7 +7,7 @@ This directory holds the reproducibility artefacts of the systematic review repo
 | File | Content |
 |------|---------|
 | `cribado-torddis.xlsx` | The 4,321 unique records retained after deduplication, one row per record, with the decision and reason of the automated pass, the final decision and reason, and the stage at which each decision was taken. Includes the PRISMA counts, the provenance of every decision and the dual-reviewer verification sample. |
-| `torddis-registros-retirados.xlsx` | Detail of the automatic pre-screen: 345 records withdrawn (39 theses, 323 records without a verifiable DOI, 47 records published before 2015; 409 reasons in total, because some records failed more than one criterion). |
+| `torddis-registros-retirados.xlsx` | Detail of the automatic pre-screen: 201 records withdrawn, applying the criteria in order and recording only the first one violated (39 theses or dissertations, 26 proceedings volumes or front matter, 106 records without a valid DOI after the manual DOI recovery, and 30 records published before 2015). The raw property counts are larger, because a record may fail more than one criterion: 323 records carried no DOI in the export and 47 predate 2015. |
 | `informe-doi.xlsx` | Audit of the DOI field of the 4,321 records (valid, malformed and missing DOIs). |
 | `informe-recuperacion-doi.xlsx` | Automated recovery of missing DOIs through bibliographic services, with accepted, to-review and not-found records and the query log. |
 
